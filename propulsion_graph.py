@@ -14,7 +14,7 @@ if __name__ == "__main__":
     bdb = BallisticDB("arty.json")
     print(bdb.describe())
 
-    fig, ax = plt.subplots()
+    fig, ax = plt.subplots(figsize=(16, 9), layout="constrained")
 
     prop_cycle = plt.rcParams["axes.prop_cycle"]
     colors = cycle(prop_cycle.by_key()["color"])
@@ -41,7 +41,11 @@ if __name__ == "__main__":
                 if kw in shot.name_en:
                     break
 
-            wms = [load.charge_mass / shot.shot_mass for load in shot]
+            wms = [
+                sum(charge.charge_mass * charge.amount for charge in load)
+                / shot.shot_mass
+                for load in shot
+            ]
             vs = [load.muzzle_velocity for load in shot]
             wmss.extend(wms)
             vss.extend(vs)
@@ -68,7 +72,7 @@ if __name__ == "__main__":
         #         edgecolor=color,
         #     )
 
-    ax.legend(loc="lower right", fontsize="xx-small")
+    ax.legend(loc="lower right", fontsize="xx-small", ncol=2)
     # ax.legend(loc="upper left", fontsize="small")
 
     ax.set_xlabel("charge to shot mass ratio")
@@ -77,4 +81,5 @@ if __name__ == "__main__":
     ax.set_xlim(0, None)
     ax.set_ylim(0, None)
 
-    plt.show()
+    # plt.show()
+    plt.savefig("propulsion_graph")

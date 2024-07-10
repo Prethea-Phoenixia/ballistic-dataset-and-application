@@ -98,7 +98,7 @@
                                 {
                                     "name_cn": "中间药束",
                                     "name_en": "Bundled Charge",
-                                    "comment": "长杆状火药一般用于引火，提高全装药的点火一致性。",
+                                    "comment": "长管状火药一般用于引火，提高全装药的点火一致性。",
                                     "charge_type": "18/1-42",
                                     "charge_mass_kg": 0.26
                                 },
@@ -127,7 +127,7 @@
                                 {
                                     "name_cn": "中间药束",
                                     "name_en": "Bundled Charge",
-                                    "comment": "长杆状火药一般用于引火，提高全装药的点火一致性。",
+                                    "comment": "长管状火药一般用于引火，提高全装药的点火一致性。",
                                     "charge_type": "18/1-42",
                                     "charge_mass_kg": 0.26
                                 },
@@ -158,7 +158,7 @@
                                 {
                                     "name_cn": "中间药束",
                                     "name_en": "Bundled Charge",
-                                    "comment": "长杆状火药一般用于引火，提高全装药的点火一致性。",
+                                    "comment": "长管状火药一般用于引火，提高全装药的点火一致性。",
                                     "charge_type": "18/1-42",
                                     "charge_mass_kg": 0.26
                                 },
@@ -189,7 +189,7 @@
                                 {
                                     "name_cn": "中间药束",
                                     "name_en": "Bundled Charge",
-                                    "comment": "长杆状火药一般用于引火，提高全装药的点火一致性。",
+                                    "comment": "长管状火药一般用于引火，提高全装药的点火一致性。",
                                     "charge_type": "12/1-32",
                                     "charge_mass_kg": 0.26
                                 },
@@ -2333,7 +2333,7 @@
                             "charges": [
                                 {
                                     "charge_type": "花16/7",
-                                    "comment": "实际装药为18/1-42（药束） + 花16/7（散装药粒），参考手册按全花16/7处理。",
+                                    "comment": "实际装药为18/1-42（药束） + 花16/7（散装药粒），内弹道计算手册中按全花16/7处理。",
                                     "charge_mass_kg": 4.15
                                 }  
                             ],

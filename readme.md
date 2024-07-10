@@ -7,6 +7,7 @@
 * [**readme.md**](readme.md) 中英文说明文件
 * [**arty.json**](arty.json) 以json格式编码的数据集文件
 * [**ballistic_parser.py**](ballistic_parser.py) 以Python语言编写的数据集序列化程序
+* [**propulsion_graph.py**](propulsion_graph.py) 以Python语言编写的，展示装药比与初速关系的程序
 
 ## 文件格式说明
 数据集的全部文档均以UTF-8格式编码。若为特殊申明，默认类型为字符串。若项目 __加粗__ 则为必填项。若涉及到角度的表示，均以度数为单位，采用十进制小数表示，不支持以度分秒计。
