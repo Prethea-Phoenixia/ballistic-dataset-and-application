@@ -12,7 +12,7 @@ from math import pi
 import logging
 
 logger = logging.getLogger(__name__)
-logging.basicConfig(level=logging.DEBUG)
+logging.basicConfig(level=logging.INFO)
 
 
 def deg_to_rad(deg: float) -> float:

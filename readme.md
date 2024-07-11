@@ -2,7 +2,6 @@
 ## 仓库简介
 本代码仓库由一个整合了中口径及以上（>=57mm）国产火炮的关键内-外弹道学技战术指标的数据集，及一些以Python编写的应用程序组成。
 
-
 ## 库结构说明
 * [**readme.md**](readme.md) 中英文说明文件
 * [**arty.json**](arty.json) 以json格式编码的数据集文件
@@ -13,7 +12,7 @@
 数据集的全部文档均以UTF-8格式编码。若为特殊申明，默认类型为字符串。若项目 __加粗__ 则为必填项。若涉及到角度的表示，均以度数为单位，采用十进制小数表示，不支持以度分秒计。
 
 
-### 数据集格式说明
+## 数据集格式说明
 - __guns__:火炮列表
     - __name_cn__:中文名称。
     - __name_en__:英文名称。
@@ -50,7 +49,7 @@
                 - __charge_mass_kg__:（浮点数）以公斤计量的火药装填量。
                 - __amount__:（整形）该药包的数目，若未标注，默认1。
 
-### 一些需要特别说明的问题
+## 一些需要特别说明的问题
 - __关于压强的单位__：\
     由于国内内弹道学继承苏联的衣钵，采用的是“公斤-分米-秒”计量系统，早期内弹道文献中常以“公斤（力）每平方厘米”计量压强，其与现今利用的国际单位制中的“帕斯卡”的对应关系为，`10 kgf/cm^2=0.9805MPa`。因其数值上接近，部分文献选择直接记作`1MPa`，但实际计算中仍然隐含了一步涉及重力加速度的转化。如果这里仿照后者直接记作`MPa`则会引入大约2%的影响。虽然客观而言，由于火炮膛压受环境温度影响很大，火药燃速系数的不确定性也高于该处理引入的误差，但本着对历史数据实事求是的态度，这里仍然以原单位表征，以期更好体现内弹道设计过程中的目标指标。
 - __关于选择最大平均压强作为火炮压强表征指标__：\
@@ -63,3 +62,33 @@
 
 ## 联系作者
 翟锦鹏，电子邮箱：914962409@qq.com
+___
+
+# In English:
+## Introduction for the Repository:
+This repository consists of a dataset detailing key interior and exterior ballistic parameters for domestic artillery pieces of medium caliber and above (>=57mm), and various Python scripts demonstrating some applications. 
+
+## Structure of the Repository:
+* [**readme.md**](readme.md) bi-lingual readme file
+* [**arty.json**](arty.json) the dataset, encoded in json.
+* [**ballistic_parser.py**](ballistic_parser.py) serialization script in Python.
+* [**propulsion_graph.py**](propulsion_graph.py) a Python script for the visualizaiton of charge mass ratio and its influence on projectile velocity.
+
+## File Format:
+All files are encoded in UTF-8 format. Unless otherwise specified, all fields in the dataset should be of type string. Mandatory fields are distinguished here with __bold__ font. If angular measures are involved, the only measurement that is supported is decimal degree. 
+
+## Dataset Format:
+
+## Some Issues of Particular Note:
+- __On the Unit of Pressure__:\
+    Chinese tradition of interior ballistics follows that of the Soviet, including the use of "kilogram-decimeter-second" system of measurement. In particular, the choice of "kilogram-per square centimeter" as a unit of pressure is to be implicitly understood as "kilogram-force per square centimeter", with an approximate correspondence to modern units of `10 kgf/cm^2 = 0.9805 MPa`. Although, it must be noted that the precision of measurement does not imply accuracy, as the pressure developed in bore is highly sensitive to both propellant burn rate variations and initial powder temperature. For less rigorous purposes, approximating it as `0.1 MPa` introduce less than 2% of inaccuracy. Values recorded in the dataset have not been converted from their original measurement, but the user is warned that these measurement can only be considered as "nominal". 
+- __On the Choice of Peak Mean Bore Pressure__:\
+    For the period under consideration, Chinese domestic ballistic tradition is to reference the length-averaged pressure of a constant-bore-diameter gun with equivalent chamber volume, or equivalently, the volume-averaged pressure of the real gun, in the design phase. As a descriptive parameter of the gun system, the mean bore pressure better reflects the actual level of pressure encountered in most part of the bore, thus better correlating to tactical-technical characteristics such as total bore weight. This is in contrast to Western systems of interior ballistics, where the reference pressure is the peak breech pressure. This parameter reflects the highest level encountered in bore, and is thus not comparable to the values as presented in this table. These two measures can be related through the theory of interior ballistics, and that accounts for the presence of a "calculated peak breech pressure" in the sources consulted for this dataset. However, the precision of such information appears poor, as these values are invariably rounded up and listed as "no greater than", and thus serve no better for ballistic comparison. Therefore, the choice of peak mean bore pressure is selected in consideration of all the aforementioned factors.
+- __On the Two Ballistic Coefficients__:\
+    The 1943 drag curve is used in domestic Chinese exterior ballistics practices in the calculation of point-mass trajectory for rotating shell and rockets. The 1943 drag curve gives the ratio of drag forces to the dynamic pressure, for a given reference shape that corresponds to a (back then) nominal howitzer round, across a range of Mach numbers. For any other shape, a dimensionless factor, the "shape coefficient", denoted `i_43`, is used to scale the drag such that the effect is approximately the same within a specific range of conditions. Previous to the proliferation of micro-computers, for the sake of facilitating a solution via look-up tables, it is common practice to also factor in the two other variables influencing the acceleration as experienced by the projectile, namely the caliber and the weight of the shell, as the "ballistic coefficient", denoted `c_43`, and expressed in units of `10^-9 m^2/kg` to bring the numeric value close to unity. The two can be converted from each other as: `i_43 <1> = c_43 <10^-9 m^2/kg> * 1000 * m <kg> / (d <mm>)^2`，where `<>` denotes dimension，`d,m` for caliber and shell mass.\
+    Comparatively, the shape coefficient is more conducive to demonstrating the relative aeroballistic efficiency of a particular shell's shape design independent of other variables, while the ballistic coefficient relates more directly to the deceleration as a consequence of aeroballistic effects, closely related to the exterior ballistic performance of a shell. When both data are available, we have elected to remain faithful to the source and preserve both without preference. The approach of the bundled Python serizalization script is provided for reference, which attempts to read and store the shape coefficient, converting from ballistic coefficient as necessary, when either is specified in the dataset.
+- __Ballistic Coefficient Tabulated Per Charge__:
+    In actuality, each particular shape of shell is associated with a particular drag curve that may be dissimilar to the 1943 drag curve. Therefore, a specific ballistic coefficient is only correct, on an average sense, for a particular trajectory. For this dataset, the tabulated ballistic coefficient is chosen such that the calculated trajectory matches the actual trajectory for when maximum range (when shooting a target at the same altitude as the gun) is achieved, for this charge loading, in keeping with the sources. Such detailed design information is, unfortunately, not always available.
+
+## Contact Me:
+Jinpeng Zhai，Email: 914962409@qq.com
