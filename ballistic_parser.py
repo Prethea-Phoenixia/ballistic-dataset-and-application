@@ -94,7 +94,7 @@ class Load:
         if c_43:
             i_43 = i_43 or c_43 * self.shot_mass * 1e3 / (self.caliber**2)
 
-        self.i_43 = i_43 or self.i_43
+        self.i_43 = i_43 or self.i_43  # type: Optional[float]
 
     def __getattr__(self, item):
         return getattr(self.shell, item)
@@ -140,12 +140,6 @@ class Load:
 
     def add_charge(self, charge: Charge):
         self.charges.append(charge)
-
-    # def get_min_elev(self) -> Optional[float]:
-    #     return self.shell.gun.min_elev
-
-    # def get_max_elev(self) -> Optional[float]:
-    #     return self.shell.gun.max_elev
 
 
 class Shell:
@@ -321,7 +315,7 @@ class BallisticDB:
     def add_gun(self, gun: Gun):
         self.guns.append(gun)
 
-    def describe(self) -> str:
+    def describe(self, depth: int = 1) -> str:
         string = ""
         for gun in self:
             string += f"{gun.name_en}\n"

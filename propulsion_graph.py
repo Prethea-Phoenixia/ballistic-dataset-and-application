@@ -21,6 +21,7 @@ if __name__ == "__main__":
     marker_dict = {
         "AB": "<",
         "Frag": "x",
+        "HE-Frag": "+",
         "HESH": "|",
         "AP": ">",
         "HEAT": "_",
@@ -38,7 +39,7 @@ if __name__ == "__main__":
         for shot in gun:
 
             for kw, marker in marker_dict.items():
-                if kw in shot.name_en:
+                if kw in shot.shell_types:
                     break
 
             wms = [

@@ -2,7 +2,7 @@
     "guns":[
         {
             "name_cn": "1955年式57毫米反坦克炮",
-            "name_en": "Type 55 57mm Anti-Tank Gun (ZiS-2)",
+            "name_en": "Type 1955 57mm Anti-Tank Gun (ZiS-2)",
             "comment": "为我国按照52-P-271A型图纸及其技术条件试制生产的[苏]ZiS-2型57毫米反坦克炮。炮架射界参考《国产火炮手册（说明部分）》及《炮弹火箭弹手册》；内弹道构型，空气阻力系数参考《火炮内弹道计算手册》。",
             "caliber_mm": 57,
             "max_elev_deg": 25,
@@ -36,8 +36,67 @@
             ]
         },
         {
+            "name_cn": "1959年式57毫米高射炮",
+            "name_en": "Type 1959 57mm AA Gun (S-60)",
+            "comment": "为我国在[苏]S-60式57毫米高射炮基础上仿制并作部分改进的型号。该型号于1963年开始研制，1965年进行定型，对改进的部分于1980年进行补充定型试验，在1981年又根据外贸需求进行了改进。",
+            "caliber_mm": 57,
+            "max_elev_deg": 87,
+            "min_elev_deg": -3,
+            "firing_arc_left_deg": 180,
+            "firing_arc_right_deg": 180,
+            "shells": [
+                {
+                    "name_cn": "WB 011PG 曳光杀伤榴弹",
+                    "name_en": "WB 011PG Fragmentation Tracer Round",
+                    "shell_types": "Frag, Tracer",
+                    "shot_mass_kg": 2.8,
+                    "chamber_length_dm": 2.98,
+                    "chamber_volume_L": 1.51,
+                    "travel_dm": 36.24,
+                    "i_43": 1.3,
+                    "c_43": 1.5,
+                    "loads": [
+                        {
+                            "charges": [
+                                {
+                                    "charge_type": "11/7",
+                                    "charge_mass_kg": 1.19
+                                }
+                            ],
+                            "muzzle_velocity_m/s": 1000,
+                            "max_avg_pressure_kgf/sqcm": 3100
+                        }
+                    ]
+                },
+                {
+                    "name_cn": "WB 107PG 曳光（被帽）穿甲弹",
+                    "name_en": "WB 107PG Armor Piercing (Capped) Tracer Round",
+                    "shell_types": "AP, Capped, Tracer",
+                    "shot_mass_kg": 2.8,
+                    "chamber_length_dm": 2.98,
+                    "chamber_volume_L": 1.51,
+                    "travel_dm": 36.24,
+                    "i_43": 1.2,
+                    "c_43": 1.4,
+                    "loads": [
+                        {
+                            "charges": [
+                                {
+                                    "charge_type": "11/7",
+                                    "charge_mass_kg": 1.19
+                                }
+                            ],
+                            "muzzle_velocity_m/s": 1000,
+                            "max_avg_pressure_kgf/sqcm": 3100
+                        }
+                    ]
+                }
+
+            ]
+        },
+        {
             "name_cn": "1954年式76毫米加农炮",
-            "name_en": "Type 54 76mm Gun (ZiS-3)",
+            "name_en": "Type 1954 76mm Gun (ZiS-3)",
             "comment": "为我国按苏联52-P-354U型图纸及其技术条件试制生产的[苏]ZiS-3型76.2毫米加农炮。炮架射界参考《国产火炮手册（说明部分）》及《炮弹火箭弹手册》；内弹道构型，空气阻力系数参考《火炮内弹道计算手册》。",
             "caliber_mm": 76.2,
             "max_elev_deg": 37,
@@ -74,7 +133,7 @@
         },
         {
             "name_cn": "1956年式85毫米加农炮",
-            "name_en": "Type 56 85mm Gun (D-44)",
+            "name_en": "Type 1956 85mm Gun (D-44)",
             "comment": "为我国仿制并改进自[苏]D-44 85毫米加农炮。空气阻力系数参考《火炮内弹道计算手册》及《炮弹火箭弹手册》，有冲突时优先后者；内弹道构型，装药设计参考《火炮内弹道计算手册》；炮架射界参考《国产火炮手册（说明部分）》;",
             "caliber_mm": 85,
             "max_elev_deg": 35,
@@ -85,6 +144,7 @@
                 {
                     "name_cn": "WB 014P, WB 024P 杀伤榴弹",
                     "name_en": "WB 014P, WB 024P Fragmentation Round",
+                    "comment": "本弹药通用于56式85毫米加农炮，39式85毫米高射炮，85毫米自行炮及85毫米坦克炮。",
                     "shell_types": "Frag",
                     "shot_mass_kg": 9.54,
                     "chamber_length_dm": 5.53,
@@ -94,8 +154,10 @@
                     "c_43": 0.83,
                     "loads": [
                         {
+                            "name_cn": "全装药",
+                            "name_en": "Full Charge",
                             "charges": [
-                                {
+                                {   
                                     "name_cn": "中间药束",
                                     "name_en": "Bundled Charge",
                                     "comment": "长管状火药一般用于引火，提高全装药的点火一致性。",
@@ -111,12 +173,34 @@
                             ],
                             "muzzle_velocity_m/s": 793,
                             "max_avg_pressure_kgf/sqcm": 2550
+                        },
+                        {
+                            "name_cn": "减装药",
+                            "name_en": "Reduced Charge",
+                            "comment": "减装药以整弹装减装药药筒的形式发放使用。根据该装药设计的图像推测，减装药应为减少散药，中间药束同全装药的设计，减少量暂用两弹全弹重差估算，待求证。",
+                            "charges": [
+                                {   
+                                    "name_cn": "中间药束",
+                                    "name_en": "Bundled Charge",
+                                    "charge_type": "18/1-42",
+                                    "charge_mass_kg": 0.26
+                                },
+                                {
+                                    "name_cn": "散装药",
+                                    "name_en": "Filler Charge",
+                                    "charge_type": "14/7",
+                                    "charge_mass_kg": 1.312
+                                }
+                            ],
+                            "muzzle_velocity_m/s": 655,
+                            "max_avg_pressure_kgf/sqcm": 2350
                         }
                     ]
                 },
                 {
                     "name_cn": "WB 101P 曳光尖头穿甲弹",
                     "name_en": "WB 101P Armor Piercing Tracer Round",
+                    "comment": "本弹药通用于56式85毫米加农炮，39式85毫米高射炮，85毫米自行炮及85毫米坦克炮。",
                     "shell_types": "AP, Tracer",
                     "shot_mass_kg": 9.342,
                     "i_43": 1.3,
@@ -146,6 +230,7 @@
                 {
                     "name_cn": "WB 114P 曳光被帽穿甲弹",
                     "name_en": "WB 114P Armor Piercing Capped Tracer Round",
+                    "comment": "本弹药通用于56式85毫米加农炮，39式85毫米高射炮，85毫米自行炮及85毫米坦克炮。",
                     "shell_types": "AP, Capped, Tracer",
                     "shot_mass_kg": 9.2,
                     "chamber_volume_L": 4,
@@ -177,6 +262,7 @@
                 {
                     "name_cn": "WB 102P 曳光超速穿甲弹",
                     "name_en": "WB 102P High Velocity Armor Piercing Round",
+                    "comment": "本弹药通用于56式85毫米加农炮，39式85毫米高射炮，85毫米自行炮及85毫米坦克炮。",
                     "shell_types": "AP, HV, Tracer",
                     "shot_mass_kg": 4.99,
                     "chamber_volume_L": 4.12,
@@ -207,9 +293,9 @@
                 },
                 {
                     "name_cn": "WB 109AP 气缸尾翼式破甲弹",
-                    "name_en": "WB 109AP piston-deployed Fin-Stabilized HEAT Round",
+                    "name_en": "WB 109AP Piston-Deployed Fin-Stabilized HEAT Round",
+                    "comment": "本弹药通用于56式85毫米加农炮与85毫米坦克炮。",
                     "shell_types": "HEAT, FS",
-
                     "shot_mass_kg": 7,
                     "chamber_volume_L": 3.628,
                     "travel_dm": 35.82,
@@ -275,9 +361,226 @@
             ]
         },
         {
+            "name_cn": "1972年式85毫米高射炮",
+            "name_en": "Type 1972 85mm AA Gun",
+            "comment": "为我国自研，又称“72式85高炮”。空气阻力系数，内弹道构型，装药设计参考《火炮内弹道计算手册》及《炮弹火箭弹手册》；炮架射界参考《国产火炮手册（说明部分）》。",
+            "caliber_mm": 85,
+            "max_elev_deg": 87,
+            "min_elev_deg": -3,
+            "firing_arc_left_deg": 180,
+            "firing_arc_right_deg": 180,
+            "shells": [
+                {
+                    "name_cn": "WB 030AP 空炸杀伤榴弹",
+                    "name_en": "WB 030AP Air Burst Fragmentation Round",
+                    "shell_types": "Airburst, Fragmentation",
+                    "shot_mass_kg": 9.3,
+                    "chamber_length_dm": 5.35,
+                    "chamber_volume_L": 5.441,
+                    "travel_dm": 49.65,
+                    "i_43": 0.96,
+                    "c_43": 0.75,
+                    "loads": [
+                        {
+                            "charges": [
+                                {
+                                    "charge_type": "花16/7",
+                                    "comment": "实际装药为18/1-42（药束） + 花16/7（散装药粒），内弹道计算手册中按全花16/7处理。",
+                                    "charge_mass_kg": 4.15
+                                }  
+                            ],
+                            "muzzle_velocity_m/s": 1000,
+                            "max_avg_pressure_kgf/sqcm": 3100
+                        }
+                    ]
+                }
+            ] 
+        },
+        {
+            "name_cn": "1963年式85毫米坦克炮",
+            "name_en": "Type 1963 85mm Tank Gun",
+            "comment": "为我国仿制苏联T-34坦克所配火炮，62年进行图纸整编，产品标记为62-85T。同年，结合我国自行生产131轻型坦克（62式）以及211水陆两用坦克(63式）的装配需求，在改进后，重新设计了带抽气装置的85毫米坦克炮，于64年批准定型生产，命名为63-85坦，产品标记62-85T_c。内弹道构型，空气阻力系数，以及装药设计参考《火炮内弹道计算手册》及《炮弹火箭弹手册》",
+            "caliber_mm": 85,
+            "shells": [
+                {
+                    "name_cn": "WB 014P, WB 024P 杀伤榴弹",
+                    "name_en": "WB 014P, WB 024P Fragmentation Round",
+                    "comment": "本弹药通用于56式85毫米加农炮，39式85毫米高射炮，85毫米自行炮及85毫米坦克炮。",
+                    "shell_types": "Frag",
+                    "shot_mass_kg": 9.54,
+                    "chamber_length_dm": 5.53,
+                    "chamber_volume_L": 3.94,
+                    "travel_dm": 35.92,
+                    "i_43": 1.1,
+                    "c_43": 0.83,
+                    "loads": [
+                        {
+                            "name_cn": "全装药",
+                            "name_en": "Full Charge",
+                            "charges": [
+                                {   
+                                    "name_cn": "中间药束",
+                                    "name_en": "Bundled Charge",
+                                    "comment": "长管状火药一般用于引火，提高全装药的点火一致性。",
+                                    "charge_type": "18/1-42",
+                                    "charge_mass_kg": 0.26
+                                },
+                                {
+                                    "name_cn": "散装药",
+                                    "name_en": "Filler Charge",
+                                    "charge_type": "14/7",
+                                    "charge_mass_kg": 2.34
+                                }
+                            ],
+                            "muzzle_velocity_m/s": 793,
+                            "max_avg_pressure_kgf/sqcm": 2550
+                        },
+                        {
+                            "name_cn": "减装药",
+                            "name_en": "Reduced Charge",
+                            "comment": "减装药以整弹装减装药药筒的形式发放使用。根据该装药设计的图像推测，减装药应为减少散药，中间药束同全装药的设计，减少量暂用两弹全弹重差估算，待求证。",
+                            "charges": [
+                                {   
+                                    "name_cn": "中间药束",
+                                    "name_en": "Bundled Charge",
+                                    "charge_type": "18/1-42",
+                                    "charge_mass_kg": 0.26
+                                },
+                                {
+                                    "name_cn": "散装药",
+                                    "name_en": "Filler Charge",
+                                    "charge_type": "14/7",
+                                    "charge_mass_kg": 1.312
+                                }
+                            ],
+                            "muzzle_velocity_m/s": 655,
+                            "max_avg_pressure_kgf/sqcm": 2350
+                        }
+                    ]
+                },
+                {
+                    "name_cn": "WB 101P 曳光尖头穿甲弹",
+                    "name_en": "WB 101P Armor Piercing Tracer Round",
+                    "comment": "本弹药通用于56式85毫米加农炮，39式85毫米高射炮，85毫米自行炮及85毫米坦克炮。",
+                    "shell_types": "AP, Tracer",
+                    "shot_mass_kg": 9.342,
+                    "i_43": 1.3,
+                    "c_43": 1.02,
+                    "loads": [
+                        {
+                            "charges": [
+                                {
+                                    "name_cn": "中间药束",
+                                    "name_en": "Bundled Charge",
+                                    "comment": "长管状火药一般用于引火，提高全装药的点火一致性。",
+                                    "charge_type": "18/1-42",
+                                    "charge_mass_kg": 0.26
+                                },
+                                {
+                                    "name_cn": "散装药",
+                                    "name_en": "Filler Charge",
+                                    "charge_type": "14/7",
+                                    "charge_mass_kg": 2.37
+                                }
+                            ],
+                            "muzzle_velocity_m/s": 800,
+                            "max_avg_pressure_kgf/sqcm": 2550
+                        }
+                    ]
+                },
+                {
+                    "name_cn": "WB 114P 曳光被帽穿甲弹",
+                    "name_en": "WB 114P Armor Piercing Capped Tracer Round",
+                    "comment": "本弹药通用于56式85毫米加农炮，39式85毫米高射炮，85毫米自行炮及85毫米坦克炮。",
+                    "shell_types": "AP, Capped, Tracer",
+                    "shot_mass_kg": 9.2,
+                    "chamber_volume_L": 4,
+                    "travel_dm": 35.46,
+                    "i_43": 1.3,
+                    "c_43": 1.02,
+                    "loads": [
+                        {
+                            "charges": [
+                                {
+                                    "name_cn": "中间药束",
+                                    "name_en": "Bundled Charge",
+                                    "comment": "长管状火药一般用于引火，提高全装药的点火一致性。",
+                                    "charge_type": "18/1-42",
+                                    "charge_mass_kg": 0.26
+                                },
+                                {
+                                    "name_cn": "散装药",
+                                    "name_en": "Filler Charge",
+                                    "charge_type": "14/7",
+                                    "charge_mass_kg": 2.37
+                                }
+                            ],
+                            "muzzle_velocity_m/s": 805,
+                            "max_avg_pressure_kgf/sqcm": 2550
+                        }
+                    ]
+                },
+                {
+                    "name_cn": "WB 102P 曳光超速穿甲弹",
+                    "name_en": "WB 102P High Velocity Armor Piercing Round",
+                    "comment": "本弹药通用于56式85毫米加农炮，39式85毫米高射炮，85毫米自行炮及85毫米坦克炮。",
+                    "shell_types": "AP, HV, Tracer",
+                    "shot_mass_kg": 4.99,
+                    "chamber_volume_L": 4.12,
+                    "travel_dm": 35.49,
+                    "i_43": 1.7,
+                    "c_43": 2.43,
+                    "loads": [
+                        {
+                            "charges": [
+                                {
+                                    "name_cn": "中间药束",
+                                    "name_en": "Bundled Charge",
+                                    "comment": "长管状火药一般用于引火，提高全装药的点火一致性。",
+                                    "charge_type": "12/1-32",
+                                    "charge_mass_kg": 0.26
+                                },
+                                {
+                                    "name_cn": "散装药",
+                                    "name_en": "Filler Charge",
+                                    "charge_type": "9/7",
+                                    "charge_mass_kg": 2.50
+                                }
+                            ],
+                            "muzzle_velocity_m/s": 1050,
+                            "max_avg_pressure_kgf/sqcm": 2550
+                        }
+                    ]
+                },
+                {
+                    "name_cn": "WB 109AP 气缸尾翼式破甲弹",
+                    "name_en": "WB 109AP Piston-Deployed Fin-Stabilized HEAT Round",
+                    "comment": "本弹药通用于56式85毫米加农炮与85毫米坦克炮。",
+                    "shell_types": "HEAT, FS",
+                    "shot_mass_kg": 7,
+                    "chamber_volume_L": 3.628,
+                    "travel_dm": 35.82,
+                    "i_43": 1.864,
+                    "c_43": 1.923,
+                    "loads": [
+                        {
+                            "charges": [
+                                {
+                                    "charge_type": "11/7",
+                                    "charge_mass_kg": 2.236
+                                }
+                            ],
+                            "muzzle_velocity_m/s": 845,
+                            "max_avg_pressure_kgf/sqcm": 2350
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "name_cn": "1944年式100毫米加农炮",
             "name_en": "100mm Field Gun M1944 (BS-3)",
-            "comment": "[苏]BS-3型100毫米野战/反坦克炮，其装备情况推测为：国内对该型号火炮有一定数目的引进但未投入火炮国产化。其部分弹药有生产。内弹道构型以及装药参考《火炮内弹道计算手册》及《炮弹火箭弹手册》；空气阻力系数额外参考《炮弹火箭弹手册》",
+            "comment": "[苏]BS-3型100毫米野战/反坦克炮，其装备情况推测为：国内对该型号火炮有一定数目的引进但未投入火炮国产化。其部分弹药有生产。内弹道构型，空气阻力系数以及装药设计参考《火炮内弹道计算手册》及《炮弹火箭弹手册》。",
             "caliber_mm": 100,
             "shells": [
                 {
@@ -329,9 +632,150 @@
             ]
         },
         {
+            "name_cn": "1959年式100毫米高射炮",
+            "name_en": "Type 1959 100mm AA Gun (KS-19)",
+            "comment": "为我国仿制并改进自[苏]KS-19M2型高射炮。空气阻力系数，内弹道构型，装药设计参考《火炮内弹道计算手册》及《炮弹火箭弹手册》；炮架射界参考《国产火炮手册（说明部分）》。",
+            "caliber_mm": 100,
+            "max_elev_deg": 85,
+            "min_elev_deg": -3,
+            "firing_arc_left_deg": 180,
+            "firing_arc_right_deg": 180,
+            "shells": [
+                {
+                    "name_cn": "WB 016P, WB 435P 空炸杀伤榴弹",
+                    "name_en": "WB 016P, WB 435P Air Burst Fragmentation Round",
+                    "shell_types": "Airburst, Frag",
+                    "shot_mass_kg": 15.6,
+                    "chamber_length_dm": 6.07,
+                    "chamber_volume_L": 7.985,
+                    "travel_dm": 47.43,
+                    "i_43": 1.0,
+                    "loads": [
+                        {
+                            "charges": [
+                                {
+                                    "name_cn": "钢药筒",
+                                    "name_en": "Steel Cartridge",
+                                    "charge_type": "双芳-3 13/1",
+                                    "charge_mass_kg": 5.66
+                                }
+                            ],
+                            "muzzle_velocity_m/s": 902.5,
+                            "max_avg_pressure_kgf/sqcm": 3000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name_cn": "1973年式100毫米滑膛反坦克炮",
+            "name_en": "Type 1973 100mm Smoothbore Anti-Tank Gun",
+            "comment": "为我国在[苏]BS-3 100毫米加农炮的基础上改进设计，为满足提高膛压增加初速发射尾翼弹的需求，将原身管从线膛改为滑膛，改进身管钢材，除身管外其他部件基本沿用了100毫米加农炮原装结构。内弹道构型，装药设计与空气阻力系数参考《火炮内弹道计算手册》与《炮弹火箭弹手册》；高低射界参考《国产火炮手册（说明部分）》。特别地，由于WB 132P弹数据疑似存在问题，这里并未登录。",
+            "caliber_mm": 100,
+            "max_elev_deg": 38,
+            "min_elev_deg": -4,
+            "firing_arc_left_deg": 26,
+            "firing_arc_right_deg": 26,
+            "shells": [
+                {
+                    "name_cn": "WB 031P 杀伤爆破榴弹",
+                    "name_en": "WB 031P High Explosive Fragmentation",
+                    "shell_types": "HE-Frag",
+                    "shot_mass_kg": 15,
+                    "chamber_length_dm": 6.09,
+                    "chamber_volume_L": 7.73,
+                    "travel_dm": 48.41,
+                    "i_43": 1.67,
+                    "c_43": 1.11,
+                    "loads": [
+                        {
+                            "charges": [
+                                {
+                                    "charge_type": "14/7",
+                                    "charge_mass_kg": 0.75
+                                },
+                                {
+                                    "charge_type": "20/1",
+                                    "charge_mass_kg": 4.3
+                                },
+                                {
+                                    "charge_type": "10/1 松钾",
+                                    "charge_mass_kg": 0.15
+                                }
+                            ],
+                            "max_avg_pressure_kgf/sqcm": 3000,
+                            "muzzle_velocity_m/s": 900
+                        }
+                    ]
+                },
+                {
+                    "name_cn": "WB 125P 脱壳超速穿甲弹",
+                    "name_en": "WB 125P Discarding Sabot High Velocity Armor Piericing Round",
+                    "shell_types": "AP, FS, DS",
+                    "comment": "飞行体3.44公斤。",
+                    "shot_mass_kg": 4.7,
+                    "chamber_length_dm": 7.17,
+                    "chamber_volume_L": 8,
+                    "travel_dm": 47.33,
+                    "i_43": 1.33,
+                    "c_43": 0.7,
+                    "loads": [
+                        {
+                            "charges": [
+                                {
+                                    "charge_type": "9/7",
+                                    "charge_mass_kg": 4.6
+                                },
+                                {
+                                    "charge_type": "18/1",
+                                    "charge_mass_kg": 1.055
+                                },
+                                {
+                                    "charge_type": "8/1 松钾",
+                                    "charge_mass_kg": 0.08
+                                }
+                            ],
+                            "max_avg_pressure_kgf/sqcm": 3300,
+                            "muzzle_velocity_m/s": 1505
+                        }
+                    ]
+                },
+                {
+                    "name_cn": "WB 122P (100毫米通用)破甲弹",
+                    "name_en": "WB 122P (100 Universal) HEAT Round",
+                    "shell_types": "HEAT",
+                    "shot_mass_kg": 10.05,
+                    "chamber_volume_L": 7.83,
+                    "travel_dm": 47.94,
+                    "i_43": 2.818,
+                    "c_43": 2.805,
+                    "loads": [
+                        {
+                            "charges": [
+                                {
+                                    "charge_type": "13/7",
+                                    "charge_mass_kg": 3.84
+                                },
+                                {
+                                    "charge_type": "18/1",
+                                    "charge_mass_kg": 0.82
+                                },
+                                {
+                                    "charge_type": "10/1 松钾",
+                                    "charge_mass_kg": 0.14
+                                }
+                            ],
+                            "max_avg_pressure_kgf/sqcm": 2530,
+                            "muzzle_velocity_m/s": 1000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "name_cn": "31/37年式122毫米加农炮（A-19）",
             "name_en": "122mm Gun M1931/1937 (A-19)",
-            "comment": "[苏]A-19型122毫米野战炮，其装备情况推测为：国内对该型号火炮有一定数目的引进但未投入火炮国产化。其部分弹药有生产。内弹道构型以及装药参考《火炮内弹道计算手册》及《炮弹火箭弹手册》；空气阻力系数额外参考《炮弹火箭弹手册》。",
+            "comment": "[苏]A-19型122毫米野战炮，其装备情况推测为：国内对该型号火炮有一定数目的引进但未投入火炮国产化。其部分弹药有生产。内弹道构型，空气阻力系数以及装药设计参考《火炮内弹道计算手册》及《炮弹火箭弹手册》。",
             "caliber_mm": 121.92,
             "shells": [
                 {
@@ -414,7 +858,7 @@
         },
         {
             "name_cn": "1960年式122毫米加农炮",
-            "name_en": "Type 60 122mm Gun (D-74)",
+            "name_en": "Type 1960 122mm Gun (D-74)",
             "comment": "为我国仿制并改进自[苏]D-74 122毫米加农炮。空气阻力系数，内弹道构型，装药设计参考《火炮内弹道计算手册》及《炮弹火箭弹手册》；炮架射界参考《国产火炮手册（说明部分）》",
             "caliber_mm": 121.92,
             "max_elev_deg": 45,
@@ -601,7 +1045,7 @@
         },
         {
             "name_cn":"1959年式130毫米加农炮",
-            "name_en": "Type 59 130mm Gun (M-46)",
+            "name_en": "Type 1959 130mm Gun (M-46)",
             "comment": "为我国仿制自[苏]M-46(M1954，GRAU编号52-P-482)型加农炮，该炮为1959年式152毫米火炮的姊妹炮，与其使用相同炮架。在我国，有同弹道的1959年-1式130毫米加农炮的改进型号。内弹道构型，装药设计与空气阻力系数参考《火炮内弹道计算手册》及《炮弹火箭弹手册》；高低射界参考《国产火炮手册（说明部分）》。",
             "caliber_mm": 130,
             "max_elev_deg": 45,
@@ -729,7 +1173,7 @@
         },
         {
             "name_cn": "1959年式152毫米加农炮",
-            "name_en": "Type 59 152mm Gun (M-47)",
+            "name_en": "Type 1959 152mm Gun (M-47)",
             "comment": "为我国仿制并改进自[苏]M-47型加农炮。该炮与1959年式130毫米加农炮的苏联原型为姊妹炮，共用炮架设计。空气阻力系数，内弹道构型，装药设计参考《火炮内弹道计算手册》及《炮弹火箭弹手册》；炮架射界参考《国产火炮手册（说明部分）》。",
             "caliber_mm": 152.4,
             "max_elev_deg": 45,
@@ -897,113 +1341,8 @@
             ]
         },
         {
-            "name_cn": "1973年式100毫米滑膛反坦克炮",
-            "name_en": "Type 1973 100mm Smoothbore Anti-Tank Gun",
-            "comment": "为我国在[苏]BS-3 100毫米加农炮的基础上改进设计，为满足提高膛压增加初速发射尾翼弹的需求，将原身管从线膛改为滑膛，改进身管钢材，除身管外其他部件基本沿用了100毫米加农炮原装结构。内弹道构型，装药设计与空气阻力系数参考《火炮内弹道计算手册》与《炮弹火箭弹手册》；高低射界参考《国产火炮手册（说明部分）》。特别地，由于WB 132P弹数据疑似存在问题，这里并未登录。",
-            "caliber_mm": 100,
-            "max_elev_deg": 38,
-            "min_elev_deg": -4,
-            "firing_arc_left_deg": 26,
-            "firing_arc_right_deg": 26,
-            "shells": [
-                {
-                    "name_cn": "WB 031P 杀伤爆破榴弹",
-                    "name_en": "WB 031P High Explosive Fragmentation",
-                    "shell_types": "HE-Frag",
-                    "shot_mass_kg": 15,
-                    "chamber_length_dm": 6.09,
-                    "chamber_volume_L": 7.73,
-                    "travel_dm": 48.41,
-                    "i_43": 1.67,
-                    "c_43": 1.11,
-                    "loads": [
-                        {
-                            "charges": [
-                                {
-                                    "charge_type": "14/7",
-                                    "charge_mass_kg": 0.75
-                                },
-                                {
-                                    "charge_type": "20/1",
-                                    "charge_mass_kg": 4.3
-                                },
-                                {
-                                    "charge_type": "10/1 松钾",
-                                    "charge_mass_kg": 0.15
-                                }
-                            ],
-                            "max_avg_pressure_kgf/sqcm": 3000,
-                            "muzzle_velocity_m/s": 900
-                        }
-                    ]
-                },
-                {
-                    "name_cn": "WB 125P 脱壳超速穿甲弹",
-                    "name_en": "WB 125P Discarding Sabot High Velocity Armor Piericing Round",
-                    "shell_types": "APFSDS",
-                    "comment": "飞行体3.44公斤。",
-                    "shot_mass_kg": 4.7,
-                    "chamber_length_dm": 7.17,
-                    "chamber_volume_L": 8,
-                    "travel_dm": 47.33,
-                    "i_43": 1.33,
-                    "c_43": 0.7,
-                    "loads": [
-                        {
-                            "charges": [
-                                {
-                                    "charge_type": "9/7",
-                                    "charge_mass_kg": 4.6
-                                },
-                                {
-                                    "charge_type": "18/1",
-                                    "charge_mass_kg": 1.055
-                                },
-                                {
-                                    "charge_type": "8/1 松钾",
-                                    "charge_mass_kg": 0.08
-                                }
-                            ],
-                            "max_avg_pressure_kgf/sqcm": 3300,
-                            "muzzle_velocity_m/s": 1505
-                        }
-                    ]
-                },
-                {
-                    "name_cn": "WB 122P (100毫米通用)破甲弹",
-                    "name_en": "WB 122P (100 Universal) HEAT Round",
-                    "shell_types": "HEAT",
-                    "shot_mass_kg": 10.05,
-                    "chamber_volume_L": 7.83,
-                    "travel_dm": 47.94,
-                    "i_43": 2.818,
-                    "c_43": 2.805,
-                    "loads": [
-                        {
-                            "charges": [
-                                {
-                                    "charge_type": "13/7",
-                                    "charge_mass_kg": 3.84
-                                },
-                                {
-                                    "charge_type": "18/1",
-                                    "charge_mass_kg": 0.82
-                                },
-                                {
-                                    "charge_type": "10/1 松钾",
-                                    "charge_mass_kg": 0.14
-                                }
-                            ],
-                            "max_avg_pressure_kgf/sqcm": 2530,
-                            "muzzle_velocity_m/s": 1000
-                        }
-                    ]
-                }
-            ]
-        },
-        {
             "name_cn": "1954年式122毫米榴弹炮",
-            "name_en": "Type 54 122mm Howitzer (M-30)",
+            "name_en": "Type 1954 122mm Howitzer (M-30)",
             "comment": "为我国仿制自[苏]M-30(M1938，GRAU编号52-G-463)型榴弹炮，基本弹种弹道同，有1954年-1式122毫米榴弹炮的改进型号。弹重与空气阻力系数参考《1954年式122毫米榴弹炮射表》；装药划分与空气阻力系数参考《苏联榴弹炮M-30》及《火炮内弹道计算手册》；内弹道构型参考《火炮内弹道计算手册》；高低射界参考《国产火炮手册（说明部分）》。应注意，我国射表中仅列全装药至6号装药，这些条件下的阻力系数取射表附表值，其他未列出条件下的阻力系数采用内弹道计算手册的推荐值。",
             "caliber_mm": 121.92,
             "max_elev_deg": 63.5,
@@ -1652,7 +1991,7 @@
         },
         {
             "name_cn": "1963年式122毫米榴弹炮",
-            "name_en": "Type 63 122mm Howitzer",
+            "name_en": "Type 1963 122mm Howitzer",
             "comment": "为我国自行设计，制造。用1937年122加（A-19）的榴弹弹丸，通过重新设计药筒和装药，使得射程提升至15公里，全炮重3.2吨。我军出于火炮性能不先进，机动性能不够好，弹丸不通用（1937年式122毫米加农炮我国不生产）考虑，定型后作储备处理，不予列装。内弹道设计、弹重、装药划分与空气阻力系数参考《火炮内弹道计算手册》；高低射界参考《国产火炮手册（说明部分）》。",
             "caliber_mm": 121.92,
             "max_elev_deg": 63.5,
@@ -1868,7 +2207,7 @@
         },
         {
             "name_cn": "1956年式152毫米榴弹炮",
-            "name_en": "Type 56 152mm Howitzer (D-1)",
+            "name_en": "Type 1956 152mm Howitzer (D-1)",
             "comment": "为我国以[苏]D-1(M1943)榴弹炮为基础仿制。装药划分，内弹道构型与弹型系数参考《火炮内弹道计算手册》；装药设计与各级初速参考苏联D-1火炮的射表；炮架高低射界参考《国产火炮手册（说明部分）》。",
             "caliber_mm": 152.4,
             "max_elev_deg": 63.5,
@@ -2063,7 +2402,7 @@
         },
         {
             "name_cn": "1966年式152毫米加农榴弹炮",
-            "name_en":"Type 66 152mm Gun Howitzer (D-20)",
+            "name_en":"Type 1966 152mm Gun Howitzer (D-20)",
             "comment": "为我国以[苏]D-20(M1955，GRAU编号52-P-546)为基础仿制。内弹道构型，装药划分与空气阻力系数参考《1966年式152毫米加榴炮射表》及《火炮内弹道计算手册》；装药设计具体药号参考《火炸药手册》；高低射界参考《国产火炮手册（说明部分）》。",
             "caliber_mm": 152.4,
             "max_elev_deg": 45,
@@ -2246,137 +2585,6 @@
                             "i_43": 0.92
                         }
                     ]     
-                }
-            ]
-        },
-        {
-            "name_cn": "1959年式57毫米高射炮",
-            "name_en": "Type 59 57mm AA Gun (S-60)",
-            "comment": "为我国在[苏]S-60式57毫米高射炮基础上仿制并作部分改进的型号。该型号于1963年开始研制，1965年进行定型，对改进的部分于1980年进行补充定型试验，在1981年又根据外贸需求进行了改进。",
-            "caliber_mm": 57,
-            "max_elev_deg": 87,
-            "min_elev_deg": -3,
-            "firing_arc_left_deg": 180,
-            "firing_arc_right_deg": 180,
-            "shells": [
-                {
-                    "name_cn": "WB 011PG 曳光杀伤榴弹",
-                    "name_en": "WB 011PG Fragmentation Tracer Round",
-                    "shell_types": "Frag, Tracer",
-                    "shot_mass_kg": 2.8,
-                    "chamber_length_dm": 2.98,
-                    "chamber_volume_L": 1.51,
-                    "travel_dm": 36.24,
-                    "i_43": 1.3,
-                    "c_43": 1.5,
-                    "loads": [
-                        {
-                            "charges": [
-                                {
-                                    "charge_type": "11/7",
-                                    "charge_mass_kg": 1.19
-                                }
-                            ],
-                            "muzzle_velocity_m/s": 1000,
-                            "max_avg_pressure_kgf/sqcm": 3100
-                        }
-                    ]
-                },
-                {
-                    "name_cn": "WB 107PG 曳光（被帽）穿甲弹",
-                    "name_en": "WB 107PG Armor Piercing (Capped) Tracer Round",
-                    "shell_types": "AP, Capped, Tracer",
-                    "shot_mass_kg": 2.8,
-                    "chamber_length_dm": 2.98,
-                    "chamber_volume_L": 1.51,
-                    "travel_dm": 36.24,
-                    "i_43": 1.2,
-                    "c_43": 1.4,
-                    "loads": [
-                        {
-                            "charges": [
-                                {
-                                    "charge_type": "11/7",
-                                    "charge_mass_kg": 1.19
-                                }
-                            ],
-                            "muzzle_velocity_m/s": 1000,
-                            "max_avg_pressure_kgf/sqcm": 3100
-                        }
-                    ]
-                }
-
-            ]
-        },
-        {
-            "name_cn": "1972年式85毫米高射炮",
-            "name_en": "Type 72 85mm AA Gun",
-            "comment": "为我国自研，又称“72式85高炮”。空气阻力系数，内弹道构型，装药设计参考《火炮内弹道计算手册》及《炮弹火箭弹手册》；炮架射界参考《国产火炮手册（说明部分）》。",
-            "caliber_mm": 85,
-            "max_elev_deg": 87,
-            "min_elev_deg": -3,
-            "firing_arc_left_deg": 180,
-            "firing_arc_right_deg": 180,
-            "shells": [
-                {
-                    "name_cn": "WB 030AP 空炸杀伤榴弹",
-                    "name_en": "WB 030AP Air Burst Fragmentation Round",
-                    "shell_types": "Airburst, Fragmentation",
-                    "shot_mass_kg": 9.3,
-                    "chamber_length_dm": 5.35,
-                    "chamber_volume_L": 5.441,
-                    "travel_dm": 49.65,
-                    "i_43": 0.96,
-                    "c_43": 0.75,
-                    "loads": [
-                        {
-                            "charges": [
-                                {
-                                    "charge_type": "花16/7",
-                                    "comment": "实际装药为18/1-42（药束） + 花16/7（散装药粒），内弹道计算手册中按全花16/7处理。",
-                                    "charge_mass_kg": 4.15
-                                }  
-                            ],
-                            "muzzle_velocity_m/s": 1000,
-                            "max_avg_pressure_kgf/sqcm": 3100
-                        }
-                    ]
-                }
-            ] 
-        },
-        {
-            "name_cn": "1959年式100毫米高射炮",
-            "name_en": "Type 59 100mm AA Gun (KS-19)",
-            "comment": "为我国仿制并改进自[苏]KS-19M2型高射炮。空气阻力系数，内弹道构型，装药设计参考《火炮内弹道计算手册》及《炮弹火箭弹手册》；炮架射界参考《国产火炮手册（说明部分）》。",
-            "caliber_mm": 100,
-            "max_elev_deg": 85,
-            "min_elev_deg": -3,
-            "firing_arc_left_deg": 180,
-            "firing_arc_right_deg": 180,
-            "shells": [
-                {
-                    "name_cn": "WB 016P, WB 435P 空炸杀伤榴弹",
-                    "name_en": "WB 016P, WB 435P Air Burst Fragmentation Round",
-                    "shell_types": "Airburst, Frag",
-                    "shot_mass_kg": 15.6,
-                    "chamber_length_dm": 6.07,
-                    "chamber_volume_L": 7.985,
-                    "travel_dm": 47.43,
-                    "i_43": 1.0,
-                    "loads": [
-                        {
-                            "charges": [
-                                {
-                                    "name_cn": "钢药筒",
-                                    "name_en": "Steel Cartridge",
-                                    "charge_type": "双芳-3 13/1",
-                                    "charge_mass_kg": 5.66
-                                }
-                            ],
-                            "muzzle_velocity_m/s": 902.5,
-                            "max_avg_pressure_kgf/sqcm": 3000
-                        }
-                    ]
                 }
             ]
         }
