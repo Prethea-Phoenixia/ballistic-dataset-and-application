@@ -177,7 +177,7 @@
                         {
                             "name_cn": "减装药",
                             "name_en": "Reduced Charge",
-                            "comment": "减装药以整弹装减装药药筒的形式发放使用。根据该装药设计的图像推测，减装药应为减少散药，中间药束同全装药的设计，减少量暂用两弹全弹重差估算，待求证。",
+                            "comment": "减装药以减装药筒装榴弹，作为整弹发放使用。根据该装药设计的图像推测，减装药应为减少散药，中间药束同全装药的设计，减少量暂用两弹全弹重差估算，待求证。",
                             "charges": [
                                 {   
                                     "name_cn": "中间药束",
@@ -438,7 +438,7 @@
                         {
                             "name_cn": "减装药",
                             "name_en": "Reduced Charge",
-                            "comment": "减装药以整弹装减装药药筒的形式发放使用。根据该装药设计的图像推测，减装药应为减少散药，中间药束同全装药的设计，减少量暂用两弹全弹重差估算，待求证。",
+                            "comment": "减装药以减装药筒装榴弹，作为整弹发放使用。根据该装药设计的图像推测，减装药应为减少散药，中间药束同全装药的设计，减少量暂用两弹全弹重差估算，待求证。",
                             "charges": [
                                 {   
                                     "name_cn": "中间药束",
@@ -595,15 +595,36 @@
                     "c_43": 0.7,
                     "loads": [
                         {
+                            "name_cn": "全装药",
+                            "name_en": "Full Charge",
                             "charges": [
                                 {
+                                    "name_cn": "中间药束",
+                                    "name_en": "Center Bundle",
                                     "charge_type": "双芳-3 18/1",
-                                    "comment": "中间药束1.85公斤+散药",
-                                    "charge_mass_kg": 5.6
+                                    "charge_mass_kg": 1.85
+                                },
+                                {
+                                    "name_cn": "散药",
+                                    "name_en": "Filler Charge",
+                                    "charge_type": "双芳-3 18/1",
+                                    "charge_mass_kg": 3.75
                                 }
                             ],
                             "muzzle_velocity_m/s": 900,
                             "max_avg_pressure_kgf/sqcm": 3000
+                        },
+                        {
+                            "name_cn": "减装药",
+                            "name_en": "Reduced Charge",
+                            "charges": [
+                                {
+                                    "charge_type": "9/7 散药 + 12/1 药束",
+                                    "charge_mass_kg": 1.814
+                                }
+                            ],
+                            "muzzle_velocity_m/s": 600,
+                            "max_avg_pressure_kgf/sqcm": 2000
                         }
                     ]
                 },
@@ -801,7 +822,7 @@
                                 },
                                 {
                                     "name_cn": "中心药束",
-                                    "name_en": "Central Bundle",
+                                    "name_en": "Center Bundle",
                                     "charge_type": "乙芳-3 17/1",
                                     "charge_mass_kg": 1.077
                                 },
@@ -837,7 +858,7 @@
                                 },
                                 {
                                     "name_cn": "中心药束",
-                                    "name_en": "Central Bundle",
+                                    "name_en": "Center Bundle",
                                     "charge_type": "乙芳-3 17/1",
                                     "charge_mass_kg": 1.077
                                 },
@@ -2474,7 +2495,7 @@
                                 },
                                 {
                                     "name_cn": "基础药包（8/1 药束）",
-                                    "name_en": "Base Charge (Central Bundle)",
+                                    "name_en": "Base Charge (Center Bundle)",
                                     "charge_type": "8/1",
                                     "charge_mass_kg": 0.1
                                 }
@@ -2501,7 +2522,7 @@
                                 },
                                 {
                                     "name_cn": "基础药包（8/1 药束）",
-                                    "name_en": "Base Charge (Central Bundle)",
+                                    "name_en": "Base Charge (Center Bundle)",
                                     "charge_type": "8/1",
                                     "charge_mass_kg": 0.1
                                 }
@@ -2528,7 +2549,7 @@
                                 },
                                 {
                                     "name_cn": "基础药包（8/1 药束）",
-                                    "name_en": "Base Charge (Central Bundle)",
+                                    "name_en": "Base Charge (Center Bundle)",
                                     "charge_type": "8/1",
                                     "charge_mass_kg": 0.1
                                 }
@@ -2555,7 +2576,7 @@
                                 },
                                 {
                                     "name_cn": "基础药包（8/1 药束）",
-                                    "name_en": "Base Charge (Central Bundle)",
+                                    "name_en": "Base Charge (Center Bundle)",
                                     "charge_type": "8/1",
                                     "charge_mass_kg": 0.1
                                 }
@@ -2575,7 +2596,7 @@
                                 },
                                 {
                                     "name_cn": "基础药包（8/1 药束）",
-                                    "name_en": "Base Charge (Central Bundle)",
+                                    "name_en": "Base Charge (Center Bundle)",
                                     "charge_type": "8/1",
                                     "charge_mass_kg": 0.1
                                 }

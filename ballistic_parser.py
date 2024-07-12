@@ -315,7 +315,7 @@ class BallisticDB:
     def add_gun(self, gun: Gun):
         self.guns.append(gun)
 
-    def describe(self, depth: int = 1) -> str:
+    def describe(self) -> str:
         string = ""
         for gun in self:
             string += f"{gun.name_en}\n"
