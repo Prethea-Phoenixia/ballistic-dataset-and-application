@@ -361,42 +361,6 @@
             ]
         },
         {
-            "name_cn": "1972年式85毫米高射炮",
-            "name_en": "Type 72 85mm AA Gun",
-            "comment": "为我国自研，又称“72式85高炮”。空气阻力系数，内弹道构型，装药设计参考《火炮内弹道计算手册》及《炮弹火箭弹手册》；炮架射界参考《国产火炮手册（说明部分）》。",
-            "caliber_mm": 85,
-            "max_elev_deg": 87,
-            "min_elev_deg": -3,
-            "firing_arc_left_deg": 180,
-            "firing_arc_right_deg": 180,
-            "shells": [
-                {
-                    "name_cn": "WB 030AP 空炸杀伤榴弹",
-                    "name_en": "WB 030AP Air Burst Fragmentation Round",
-                    "shell_types": "Airburst, Fragmentation",
-                    "shot_mass_kg": 9.3,
-                    "chamber_length_dm": 5.35,
-                    "chamber_volume_L": 5.441,
-                    "travel_dm": 49.65,
-                    "i_43": 0.96,
-                    "c_43": 0.75,
-                    "loads": [
-                        {
-                            "charges": [
-                                {
-                                    "charge_type": "花16/7",
-                                    "comment": "实际装药为18/1-42（药束） + 花16/7（散装药粒），内弹道计算手册中按全花16/7处理。",
-                                    "charge_mass_kg": 4.15
-                                }  
-                            ],
-                            "muzzle_velocity_m/s": 1000,
-                            "max_avg_pressure_kgf/sqcm": 3100
-                        }
-                    ]
-                }
-            ] 
-        },
-        {
             "name_cn": "1963年式85毫米坦克炮",
             "name_en": "Type 63 85mm Tank Gun",
             "comment": "为我国仿制[苏]T-34坦克所配火炮，62年进行图纸整编，产品标记为62-85T。同年，结合我国自行生产131轻型坦克（62式）以及211水陆两用坦克(63式）的装配需求，在改进后，重新设计了带抽气装置的85毫米坦克炮，于64年批准定型生产，命名为63-85坦，产品标记62-85T_c。内弹道构型，空气阻力系数，以及装药设计参考《火炮内弹道计算手册》及《炮弹火箭弹手册》；炮架射界参考《国产火炮手册（说明部分）》。",
@@ -580,6 +544,42 @@
                     ]
                 }
             ]
+        },
+        {
+            "name_cn": "1972年式85毫米高射炮",
+            "name_en": "Type 72 85mm AA Gun",
+            "comment": "为我国自研，又称“72式85高炮”。空气阻力系数，内弹道构型，装药设计参考《火炮内弹道计算手册》及《炮弹火箭弹手册》；炮架射界参考《国产火炮手册（说明部分）》。",
+            "caliber_mm": 85,
+            "max_elev_deg": 87,
+            "min_elev_deg": -3,
+            "firing_arc_left_deg": 180,
+            "firing_arc_right_deg": 180,
+            "shells": [
+                {
+                    "name_cn": "WB 030AP 空炸杀伤榴弹",
+                    "name_en": "WB 030AP Air Burst Fragmentation Round",
+                    "shell_types": "Airburst, Fragmentation",
+                    "shot_mass_kg": 9.3,
+                    "chamber_length_dm": 5.35,
+                    "chamber_volume_L": 5.441,
+                    "travel_dm": 49.65,
+                    "i_43": 0.96,
+                    "c_43": 0.75,
+                    "loads": [
+                        {
+                            "charges": [
+                                {
+                                    "charge_type": "花16/7",
+                                    "comment": "实际装药为18/1-42（药束） + 花16/7（散装药粒），内弹道计算手册中按全花16/7处理。",
+                                    "charge_mass_kg": 4.15
+                                }  
+                            ],
+                            "muzzle_velocity_m/s": 1000,
+                            "max_avg_pressure_kgf/sqcm": 3100
+                        }
+                    ]
+                }
+            ] 
         },
         {
             "name_cn": "1944与1959年式100毫米加农炮",
@@ -1071,6 +1071,113 @@
             ]
         },
         {
+            "name_cn": "1969年式100毫米滑膛坦克炮",
+            "name_en": "Type 69 100mm Smoothbore Tank Gun",
+            "comment": "为我国在1959年式100毫米线膛坦克炮的基础上进行线改滑而成。内弹道构型，装药设计与空气阻力系数参考《火炮内弹道计算手册》与《炮弹火箭弹手册》；高低射界参考《国产火炮手册（说明部分）》。",
+            "caliber_mm": 100,
+            "max_elev_deg": 18,
+            "min_elev_deg": -5,
+            "firing_arc_left_deg": 180,
+            "firing_arc_right_deg": 180,
+            "shells": [
+                {
+                    "name_cn": "WB 031P 杀伤爆破榴弹",
+                    "name_en": "WB 031P High Explosive Fragmentation",
+                    "comment": "该型弹药为121项目下，配合69式100毫米滑膛坦克炮所研制的三种弹药之一。由于该项目的原因，亦曾称71式，经过改进后定型为73式。该弹通用1973年式100毫米滑膛炮反坦克炮与1969年式100毫米滑膛坦克炮。",
+                    "shell_types": "HE-Frag",
+                    "shot_mass_kg": 15,
+                    "chamber_length_dm": 6.09,
+                    "chamber_volume_L": 7.73,
+                    "travel_dm": 48.41,
+                    "i_43": 1.67,
+                    "c_43": 1.11,
+                    "loads": [
+                        {
+                            "charges": [
+                                {
+                                    "charge_type": "14/7",
+                                    "charge_mass_kg": 0.75
+                                },
+                                {
+                                    "charge_type": "20/1",
+                                    "charge_mass_kg": 4.3
+                                },
+                                {
+                                    "charge_type": "10/1 松钾",
+                                    "charge_mass_kg": 0.15
+                                }
+                            ],
+                            "max_avg_pressure_kgf/sqcm": 3000,
+                            "muzzle_velocity_m/s": 900
+                        }
+                    ]
+                },
+                {
+                    "name_cn": "WB 122P (100毫米通用)破甲弹",
+                    "name_en": "WB 122P (Universal) HEAT Round",
+                    "comment": "该型弹药为121项目下，配合69式100毫米滑膛坦克炮所研制的三种弹药之一。由于该项目的原因，亦曾称71式，经过改进后定型为73式。该弹通用1973年式100毫米滑膛炮反坦克炮，1959年式100毫米（线膛）坦克炮，1969年式100毫米滑膛坦克炮。",
+                    "shell_types": "HEAT",
+                    "shot_mass_kg": 10.05,
+                    "chamber_volume_L": 7.83,
+                    "travel_dm": 47.94,
+                    "i_43": 2.818,
+                    "c_43": 2.805,
+                    "loads": [
+                        {
+                            "charges": [
+                                {
+                                    "charge_type": "13/7",
+                                    "charge_mass_kg": 3.84
+                                },
+                                {
+                                    "charge_type": "18/1",
+                                    "charge_mass_kg": 0.82
+                                },
+                                {
+                                    "charge_type": "10/1 松钾",
+                                    "charge_mass_kg": 0.14
+                                }
+                            ],
+                            "max_avg_pressure_kgf/sqcm": 2530,
+                            "muzzle_velocity_m/s": 1000
+                        }
+                    ]
+                },
+                {
+                    "name_cn": "WB 125P 脱壳超速穿甲弹",
+                    "name_en": "WB 125P Discarding Sabot High Velocity Armor Piericing Round",
+                    "shell_types": "AP, FS, DS",
+                    "comment": "飞行体3.44公斤。该型弹药为121项目下，配合69式100毫米滑膛坦克炮所研制的三种弹药之一。由于该项目的原因，亦曾称71式，经过改进后定型为73式。该弹通用1973年式100毫米滑膛炮反坦克炮与1969年式100毫米滑膛坦克炮。",
+                    "shot_mass_kg": 4.7,
+                    "chamber_length_dm": 7.17,
+                    "chamber_volume_L": 8,
+                    "travel_dm": 47.33,
+                    "i_43": 1.33,
+                    "c_43": 0.7,
+                    "loads": [
+                        {
+                            "charges": [
+                                {
+                                    "charge_type": "9/7",
+                                    "charge_mass_kg": 4.6
+                                },
+                                {
+                                    "charge_type": "18/1",
+                                    "charge_mass_kg": 1.055
+                                },
+                                {
+                                    "charge_type": "8/1 松钾",
+                                    "charge_mass_kg": 0.08
+                                }
+                            ],
+                            "max_avg_pressure_kgf/sqcm": 3300,
+                            "muzzle_velocity_m/s": 1505
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "name_cn": "1973年式100毫米滑膛反坦克炮",
             "name_en": "Type 73 100mm Smoothbore Anti-Tank Gun",
             "comment": "为我国在[苏]BS-3 100毫米加农炮的基础上改进设计，为满足提高膛压增加初速发射尾翼弹的需求，将原身管从线膛改为滑膛，改进身管钢材，除身管外其他部件基本沿用了100毫米加农炮原装结构。内弹道构型，装药设计与空气阻力系数参考《火炮内弹道计算手册》与《炮弹火箭弹手册》；高低射界参考《国产火炮手册（说明部分）》。WB 132P 弹药数据存疑。",
@@ -1205,113 +1312,6 @@
             ]
         },
         {
-            "name_cn": "1969年式100毫米滑膛坦克炮",
-            "name_en": "Type 69 100mm Smoothbore Tank Gun",
-            "comment": "为我国在1959年式100毫米线膛坦克炮的基础上进行线改滑而成。内弹道构型，装药设计与空气阻力系数参考《火炮内弹道计算手册》与《炮弹火箭弹手册》；高低射界参考《国产火炮手册（说明部分）》。",
-            "caliber_mm": 100,
-            "max_elev_deg": 18,
-            "min_elev_deg": -5,
-            "firing_arc_left_deg": 180,
-            "firing_arc_right_deg": 180,
-            "shells": [
-                {
-                    "name_cn": "WB 031P 杀伤爆破榴弹",
-                    "name_en": "WB 031P High Explosive Fragmentation",
-                    "comment": "该型弹药为121项目下，配合69式100毫米滑膛坦克炮所研制的三种弹药之一。由于该项目的原因，亦曾称71式，经过改进后定型为73式。该弹通用1973年式100毫米滑膛炮反坦克炮与1969年式100毫米滑膛坦克炮。",
-                    "shell_types": "HE-Frag",
-                    "shot_mass_kg": 15,
-                    "chamber_length_dm": 6.09,
-                    "chamber_volume_L": 7.73,
-                    "travel_dm": 48.41,
-                    "i_43": 1.67,
-                    "c_43": 1.11,
-                    "loads": [
-                        {
-                            "charges": [
-                                {
-                                    "charge_type": "14/7",
-                                    "charge_mass_kg": 0.75
-                                },
-                                {
-                                    "charge_type": "20/1",
-                                    "charge_mass_kg": 4.3
-                                },
-                                {
-                                    "charge_type": "10/1 松钾",
-                                    "charge_mass_kg": 0.15
-                                }
-                            ],
-                            "max_avg_pressure_kgf/sqcm": 3000,
-                            "muzzle_velocity_m/s": 900
-                        }
-                    ]
-                },
-                {
-                    "name_cn": "WB 122P (100毫米通用)破甲弹",
-                    "name_en": "WB 122P (Universal) HEAT Round",
-                    "comment": "该型弹药为121项目下，配合69式100毫米滑膛坦克炮所研制的三种弹药之一。由于该项目的原因，亦曾称71式，经过改进后定型为73式。该弹通用1973年式100毫米滑膛炮反坦克炮，1959年式100毫米（线膛）坦克炮，1969年式100毫米滑膛坦克炮。",
-                    "shell_types": "HEAT",
-                    "shot_mass_kg": 10.05,
-                    "chamber_volume_L": 7.83,
-                    "travel_dm": 47.94,
-                    "i_43": 2.818,
-                    "c_43": 2.805,
-                    "loads": [
-                        {
-                            "charges": [
-                                {
-                                    "charge_type": "13/7",
-                                    "charge_mass_kg": 3.84
-                                },
-                                {
-                                    "charge_type": "18/1",
-                                    "charge_mass_kg": 0.82
-                                },
-                                {
-                                    "charge_type": "10/1 松钾",
-                                    "charge_mass_kg": 0.14
-                                }
-                            ],
-                            "max_avg_pressure_kgf/sqcm": 2530,
-                            "muzzle_velocity_m/s": 1000
-                        }
-                    ]
-                },
-                {
-                    "name_cn": "WB 125P 脱壳超速穿甲弹",
-                    "name_en": "WB 125P Discarding Sabot High Velocity Armor Piericing Round",
-                    "shell_types": "AP, FS, DS",
-                    "comment": "飞行体3.44公斤。该型弹药为121项目下，配合69式100毫米滑膛坦克炮所研制的三种弹药之一。由于该项目的原因，亦曾称71式，经过改进后定型为73式。该弹通用1973年式100毫米滑膛炮反坦克炮与1969年式100毫米滑膛坦克炮。",
-                    "shot_mass_kg": 4.7,
-                    "chamber_length_dm": 7.17,
-                    "chamber_volume_L": 8,
-                    "travel_dm": 47.33,
-                    "i_43": 1.33,
-                    "c_43": 0.7,
-                    "loads": [
-                        {
-                            "charges": [
-                                {
-                                    "charge_type": "9/7",
-                                    "charge_mass_kg": 4.6
-                                },
-                                {
-                                    "charge_type": "18/1",
-                                    "charge_mass_kg": 1.055
-                                },
-                                {
-                                    "charge_type": "8/1 松钾",
-                                    "charge_mass_kg": 0.08
-                                }
-                            ],
-                            "max_avg_pressure_kgf/sqcm": 3300,
-                            "muzzle_velocity_m/s": 1505
-                        }
-                    ]
-                }
-            ]
-        },
-        {
             "name_cn": "31/37年式122毫米加农炮（A-19）",
             "name_en": "122mm Gun M1931/1937 (A-19)",
             "comment": "[苏]A-19型122毫米野战炮，其装备情况推测为：国内对该型号火炮有一定数目的引进但未投入火炮国产化。其部分弹药有生产。内弹道构型，空气阻力系数以及装药设计参考《火炮内弹道计算手册》及《炮弹火箭弹手册》。",
@@ -1393,490 +1393,6 @@
                         }
                     ]
                 }
-            ]
-        },
-        {
-            "name_cn": "1960年式122毫米加农炮",
-            "name_en": "Type 60 122mm Gun (D-74)",
-            "comment": "为我国仿制并改进自[苏]D-74 122毫米加农炮。空气阻力系数，内弹道构型，装药设计参考《火炮内弹道计算手册》及《炮弹火箭弹手册》；炮架射界参考《国产火炮手册（说明部分）》",
-            "caliber_mm": 121.92,
-            "max_elev_deg": 45,
-            "min_elev_deg": -5,
-            "firing_arc_left_deg": 30,
-            "firing_arc_right_deg": 28,
-            "shells": [
-                {
-                    "name_cn": "WB 010P 杀伤爆破榴弹",
-                    "name_en": "WB 010P High Explosive Fragmentation Round",
-                    "shell_types": "HE-Frag",
-                    "shot_mass_kg": 27.3,
-                    "chamber_length_dm": 7.8,
-                    "chamber_volume_L": 14.03,
-                    "travel_dm": 49.101,
-                    "i_43": 1.0,
-                    "c_43": 0.55,
-                    "loads": [
-                        {
-                            "name_cn": "全装药",
-                            "name_en": "Full Charge",
-                            "charges": [
-                                {
-                                    "name_cn": "上下药束 + 散药",
-                                    "name_en": "Top/Bottom Bundle + Loose Grains",
-                                    "charge_type": "双芳-2 19/1",
-                                    "comment": "上下药束各4公斤，其余散药",
-                                    "charge_mass_kg": 9.8
-                                }
-                            ],
-                            "muzzle_velocity_m/s": 885,
-                            "max_avg_pressure_kgf/sqcm": 3150
-                        },
-                        {
-                            "name_cn": "1号装药",
-                            "name_en": "No.1 Charge",
-                            "charges": [
-                                {
-                                    "charge_type": "13/7",
-                                    "charge_mass_kg": 5.83
-                                },
-                                {
-                                    "charge_type": "12/1 松钾",
-                                    "charge_mass_kg": 0.7
-                                }
-                            ],
-                            "muzzle_velocity_m/s": 770,
-                            "max_avg_pressure_kgf/sqcm": 3150
-                        },
-                        {
-                            "name_cn": "2号装药",
-                            "name_en": "No.2 Charge",
-                            "charges": [
-                                {
-                                    "charge_type": "13/7",
-                                    "charge_mass_kg": 4.44
-                                },
-                                {
-                                    "charge_type": "12/1 松钾",
-                                    "charge_mass_kg": 0.7
-                                }
-                            ],
-                            "muzzle_velocity_m/s": 660
-                        },
-                        {
-                            "name_cn": "基本装药",
-                            "name_en": "Base Charge",
-                            "charges": [
-                                {
-                                    "charge_type": "13/7",
-                                    "charge_mass_kg": 3.05
-                                },
-                                {
-                                    "charge_type": "12/1 松钾",
-                                    "charge_mass_kg": 0.7
-                                }
-                            ],
-                            "muzzle_velocity_m/s": 550,
-                            "max_avg_pressure_kgf/sqcm": 1000
-                        }
-                    ] 
-                },
-                {
-                    "name_cn": "WB 431P 发烟弹",
-                    "name_en": "WB 431P Smoke Round",
-                    "shell_types": "Smoke",
-                    "shot_mass_kg": 28.2,
-                    "i_43": 1.0,
-                    "c_43": 0.504,
-                    "loads": [
-                        {
-                            "name_cn": "全装药",
-                            "name_en": "Full Charge",
-                            "charges": [
-                                {
-                                    "name_cn": "上下药束 + 散药",
-                                    "name_en": "Top/Bottom Bundle + Loose Grains",
-                                    "charge_type": "双芳-2 19/1",
-                                    "comment": "上下药束各4公斤，其余散药",
-                                    "charge_mass_kg": 9.8
-                                }
-                            ],
-                            "muzzle_velocity_m/s": 874,
-                            "max_avg_pressure_kgf/sqcm": 3228
-                        }
-                    ]
-                },
-                {
-                    "name_cn": "WB 413P 照明弹",
-                    "name_en": "WB 431P Illumination Round",
-                    "shell_types": "Star",
-                    "shot_mass_kg": 24.7,
-                    "i_43": 1.0,
-                    "c_43": 0.6,
-                    "loads": [
-                        {
-                            "name_cn": "全装药",
-                            "name_en": "Full Charge",
-                            "charges": [
-                                {
-                                    "name_cn": "上下药束 + 散药",
-                                    "name_en": "Top/Bottom Bundle + Loose Grains",
-                                    "charge_type": "双芳-2 19/1",
-                                    "comment": "上下药束各4公斤，其余散药",
-                                    "charge_mass_kg": 9.8
-                                }
-                            ],
-                            "muzzle_velocity_m/s": 885,
-                            "max_avg_pressure_kgf/sqcm": 2880
-                        }
-                    ]
-                },
-                {
-                    "name_cn": "WB 430P 宣传弹",
-                    "name_en": "WB 430P Propaganda",
-                    "shell_types": "Leaflet",
-                    "shot_mass_kg": 25.9,
-                    "i_43": 1.0,
-                    "c_43": 0.57,
-                    "loads": [
-                        {
-                            "name_cn": "全装药",
-                            "name_en": "Full Charge",
-                            "charges": [
-                                {
-                                    "name_cn": "上下药束 + 散药",
-                                    "name_en": "Top/Bottom Bundle + Loose Grains",
-                                    "charge_type": "双芳-2 19/1",
-                                    "comment": "上下药束各4公斤，其余散药",
-                                    "charge_mass_kg": 9.8
-                                }
-                            ],
-                            "muzzle_velocity_m/s": 899,
-                            "max_avg_pressure_kgf/sqcm": 3024
-                        }
-                    ]
-                },
-                {
-                    "name_cn": "WB 438P 燃烧弹",
-                    "name_en": "WB 438P Incendiary",
-                    "shell_types": "Incendiary",
-                    "shot_mass_kg": 25.7,
-                    "i_43": 1.12,
-                    "c_43": 0.65,
-                    "loads": [
-                        {
-                            "name_cn": "全装药",
-                            "name_en": "Full Charge",
-                            "charges": [
-                                {
-                                    "name_cn": "上下药束 + 散药",
-                                    "name_en": "Top/Bottom Bundle + Loose Grains",
-                                    "charge_type": "双芳-2 19/1",
-                                    "comment": "上下药束各4公斤，其余散药",
-                                    "charge_mass_kg": 9.8
-                                }
-                            ],
-                            "muzzle_velocity_m/s": 896,
-                            "max_avg_pressure_kgf/sqcm": 2990
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name_cn":"1959年式130毫米加农炮",
-            "name_en": "Type 59 130mm Gun (M-46)",
-            "comment": "为我国仿制自[苏]M-46(M1954，GRAU编号52-P-482)型加农炮，该炮为1959年式152毫米火炮的姊妹炮，与其使用相同炮架。在我国，有同弹道的1959年-1式130毫米加农炮的改进型号。内弹道构型，装药设计与空气阻力系数参考《火炮内弹道计算手册》及《炮弹火箭弹手册》；高低射界参考《国产火炮手册（说明部分）》。",
-            "caliber_mm": 130,
-            "max_elev_deg": 45,
-            "min_elev_deg": -2.5,
-            "firing_arc_left_deg": 25,
-            "firing_arc_right_deg": 25,
-            "shells": [
-                {
-                    "name_cn": "WB 005P 杀伤爆破榴弹",
-                    "name_en": "WB 005P High Explosive Fragmentation",
-                    "shell_types": "HE-Frag",
-                    "shot_mass_kg": 33.4,
-                    "chamber_length_dm": 8.98,
-                    "chamber_volume_L": 18.58,
-                    "travel_dm": 59.52,
-                    "i_43": 1.0,
-                    "c_43": 0.51,
-                    "loads": [
-                        {
-                            "name_cn": "全装药",
-                            "name_en": "Full Charge",
-                            "charges": [
-                                {
-                                    "name_cn": "附加药束 + 上中间药束 + 下药束 + 散装药",
-                                    "name_en": "Additional + Top + Bottom Bundles + Loose Grains",
-                                    "comment": "附加药束1.9公斤，上中间药束重3.2公斤，下药束5.3公斤，散装药2.5公斤",
-                                    "charge_type": "双芳-3 23/1",
-                                    "charge_mass_kg": 12.9
-                                }
-                            ],
-                            "max_avg_pressure_kgf/sqcm": 3150,
-                            "muzzle_velocity_m/s": 930
-                        },
-                        {
-                            "name_cn": "一号装药",
-                            "name_en": "No.1 Charge",
-                            "charges": [
-                                {
-                                    "name_cn": "上中间药束 + 下药束 + 散装药",
-                                    "name_en": "Top + Bottom Bundles + Loose Grains",
-                                    "comment": "上中间药束重3.2公斤，下药束5.3公斤，散装药2.5公斤",
-                                    "charge_type": "双芳-3 23/1",
-                                    "charge_mass_kg": 11
-                                }
-                            ],
-                            "max_avg_pressure_kgf/sqcm": 3000,
-                            "muzzle_velocity_m/s": 810
-                        },
-                        {
-                            "name_cn": "二号装药",
-                            "name_en": "No.2 Charge",
-                            "charges": [
-                                {
-                                    "charge_type": "9/7",
-                                    "charge_mass_kg": 5.80
-                                },
-                                {
-                                    "charge_type": "12/1",
-                                    "charge_mass_kg": 0.70
-                                }
-                            ],
-                            "max_avg_pressure_kgf/sqcm": 2700,
-                            "muzzle_velocity_m/s": 705
-                        },
-                        {
-                            "name_cn": "三号装药",
-                            "name_en": "No.3 Charge",
-                            "charges": [
-                                {
-                                    "charge_type": "9/7",
-                                    "charge_mass_kg": 4.52
-                                },
-                                {
-                                    "charge_type": "12/1",
-                                    "charge_mass_kg": 0.70
-                                }
-                            ],
-                            "muzzle_velocity_m/s": 620
-                        },
-                        {
-                            "name_cn": "四号装药",
-                            "name_en": "No.4 Charge",
-                            "charges": [
-                                {
-                                    "charge_type": "9/7",
-                                    "charge_mass_kg": 3.22
-                                },
-                                {
-                                    "charge_type": "12/1",
-                                    "charge_mass_kg": 0.70
-                                }
-                            ],
-                            "max_avg_pressure_kgf/sqcm": 1100,
-                            "muzzle_velocity_m/s": 525
-                        }
-                    ]
-                },
-                {
-                    "name_cn": "WB 621WJS 发烟弹",
-                    "name_en": "WB 621WJS Smoke Round",
-                    "shell_types": "Smoke",
-                    "shot_mass_kg": 32.47,
-                    "chamber_volume_L": 17.61,
-                    "travel_dm": 59.52,
-                    "i_43": 1.0,
-                    "loads": [
-                        {
-                            "name_cn": "全装药",
-                            "name_en": "Full Charge",
-                            "charges": [
-                                {
-                                    "name_cn": "附加药束 + 上中间药束 + 下药束 + 散装药",
-                                    "name_en": "Additional + Top + Bottom Bundles + Loose Grains",
-                                    "comment": "附加药束1.9公斤，上中间药束重3.2公斤，下药束5.3公斤，散装药2.5公斤",
-                                    "charge_type": "双芳-3 23/1",
-                                    "charge_mass_kg": 12.9
-                                }
-                            ],
-                            "max_avg_pressure_kgf/sqcm": 3070,
-                            "muzzle_velocity_m/s": 935.48
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name_cn": "1959年式152毫米加农炮",
-            "name_en": "Type 59 152mm Gun (M-47)",
-            "comment": "为我国仿制并改进自[苏]M-47型加农炮。该炮与1959年式130毫米加农炮的苏联原型为姊妹炮，共用炮架设计。空气阻力系数，内弹道构型，装药设计参考《火炮内弹道计算手册》及《炮弹火箭弹手册》；炮架射界参考《国产火炮手册（说明部分）》。",
-            "caliber_mm": 152.4,
-            "max_elev_deg": 45,
-            "min_elev_deg": -2.5,
-            "firing_arc_left_deg": 25,
-            "firing_arc_right_deg": 25,
-            "shells": [
-                {
-                    "name_cn": "WB 008P 杀伤爆破榴弹",
-                    "name_en": "WB 008P High Explosive Fragmentation Round",
-                    "shell_types": "HE-Frag",
-                    "shot_mass_kg": 43.56,
-                    "chamber_length_dm": 7.73,
-                    "chamber_volume_L": 17.27,
-                    "travel_dm": 55.77,
-                    "i_43": 1.1,
-                    "c_43": 0.6,
-                    "loads": [
-                        {
-                            "name_cn": "全装药",
-                            "name_en": "Full Charge",
-                            "charges": [
-                                {
-                                    "charge_type":"双芳-3 19/1",
-                                    "charge_mass_kg": 10.67
-                                }
-                            ],
-                            "muzzle_velocity_m/s": 770,
-                            "max_avg_pressure_kgf/sqcm": 2350 
-                        },
-                        {
-                            "name_cn": "一号装药",
-                            "name_en": "No.1 Charge",
-                            "charges": [
-                                {
-                                    "charge_type":"双芳-3 19/1",
-                                    "charge_mass_kg": 8.45
-                                }
-                            ],
-                            "muzzle_velocity_m/s": 635,
-                            "max_avg_pressure_kgf/sqcm": 1000
-                        },
-                        {
-                            "name_cn": "二号装药",
-                            "name_en": "No.2 Charge",
-                            "charges": [
-                                {
-                                    "charge_type":"4/1",
-                                    "charge_mass_kg": 3.465
-                                },
-                                {
-                                    "charge_type": "12/1",
-                                    "charge_mass_kg": 0.25
-                                }
-                            ],
-                            "muzzle_velocity_m/s": 500,
-                            "max_avg_pressure_kgf/sqcm": 2350
-                        },
-                        {
-                            "name_cn": "三号装药",
-                            "name_en": "No.3 Charge",
-                            "charges": [
-                                {
-                                    "charge_type":"4/1",
-                                    "charge_mass_kg": 2.05
-                                },
-                                {
-                                    "charge_type": "12/1",
-                                    "charge_mass_kg": 0.25
-                                }
-                            ],
-                            "muzzle_velocity_m/s": 380,
-                            "max_avg_pressure_kgf/sqcm": 900
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name_cn": "1983年式152毫米加农炮",
-            "name_en": "Type 83 152mm Gun",
-            "comment": "为我国自行设计，制造。该炮在1983年通过了外贸鉴定，并成功出口；后经过改进（推测为焊接钢药筒取代了药包式装药），在1986年完成了国内设计定型，自用列装型号为1986年式152毫米加农炮。注意，该火炮并非搭载于1983年式自行加榴炮的改进型1966式152毫米加榴炮。空气阻力系数，内弹道构型，装药设计参考《火炮内弹道计算手册》。",
-            "caliber_mm": 152.4,
-            "shells": [
-                {
-                    "name_cn": "WB 028 杀伤爆破榴弹",
-                    "name_en": "WB 028 High Explosive Fragmentation",
-                    "shell_types": "HE-Frag",
-                    "shot_mass_kg": 48,
-                    "chamber_length_dm": 9.69,
-                    "chamber_volume_L": 30.57,
-                    "travel_dm": 70.91,
-                    "i_43": 0.892,
-                    "loads": [
-                        {
-                            "name_cn": "全装药",
-                            "name_en": "Full Charge",
-                            "charges": [
-                                {
-                                    "charge_type": "单芳-1 22/7",
-                                    "charge_mass_kg": 21.09
-                                }
-                            ],
-                            "muzzle_velocity_m/s": 955,
-                            "max_avg_pressure_kgf/sqcm": 3100,
-                            "c_43": 0.4316,
-                            "i_43": 0.892
-                        },
-                        {
-                            "name_cn": "一号装药",
-                            "name_en": "No.1 Charge",
-                            "charges": [
-                                {
-                                    "charge_type": "单芳-1 22/7",
-                                    "charge_mass_kg": 18.8
-                                }
-                            ],
-                            "muzzle_velocity_m/s": 890,
-                            "c_43": 0.4364,
-                            "i_43": 0.902
-                        },
-                        {
-                            "name_cn": "二号装药",
-                            "name_en": "No.2 Charge",
-                            "charges": [
-                                {
-                                    "charge_type": "9/7",
-                                    "charge_mass_kg": 12
-                                }
-                            ],
-                            "muzzle_velocity_m/s": 780,
-                            "c_43": 0.46,
-                            "i_43": 0.95
-                        },
-                        {
-                            "name_cn": "三号装药",
-                            "name_en": "No.3 Charge",
-                            "charges": [
-                                {
-                                    "charge_type": "9/7",
-                                    "charge_mass_kg": 9.10
-                                }
-                            ],
-                            "muzzle_velocity_m/s": 660,
-                            "c_43": 0.4987,
-                            "i_43": 1.031
-                        },
-                        {
-                            "name_cn": "四号装药",
-                            "name_en": "No.4 Charge",
-                            "charges": [
-                                {
-                                    "charge_type": "9/7",
-                                    "charge_mass_kg": 6.2
-                                }
-                            ],
-                            "muzzle_velocity_m/s": 540,
-                            "max_avg_pressure_kgf/sqcm": 960,
-                            "c_43": 0.545,
-                            "i_43": 1.1264
-                        }
-                    ]
-                }
-
             ]
         },
         {
@@ -2529,6 +2045,193 @@
             ]
         },
         {
+            "name_cn": "1960年式122毫米加农炮",
+            "name_en": "Type 60 122mm Gun (D-74)",
+            "comment": "为我国仿制并改进自[苏]D-74 122毫米加农炮。空气阻力系数，内弹道构型，装药设计参考《火炮内弹道计算手册》及《炮弹火箭弹手册》；炮架射界参考《国产火炮手册（说明部分）》",
+            "caliber_mm": 121.92,
+            "max_elev_deg": 45,
+            "min_elev_deg": -5,
+            "firing_arc_left_deg": 30,
+            "firing_arc_right_deg": 28,
+            "shells": [
+                {
+                    "name_cn": "WB 010P 杀伤爆破榴弹",
+                    "name_en": "WB 010P High Explosive Fragmentation Round",
+                    "shell_types": "HE-Frag",
+                    "shot_mass_kg": 27.3,
+                    "chamber_length_dm": 7.8,
+                    "chamber_volume_L": 14.03,
+                    "travel_dm": 49.101,
+                    "i_43": 1.0,
+                    "c_43": 0.55,
+                    "loads": [
+                        {
+                            "name_cn": "全装药",
+                            "name_en": "Full Charge",
+                            "charges": [
+                                {
+                                    "name_cn": "上下药束 + 散药",
+                                    "name_en": "Top/Bottom Bundle + Loose Grains",
+                                    "charge_type": "双芳-2 19/1",
+                                    "comment": "上下药束各4公斤，其余散药",
+                                    "charge_mass_kg": 9.8
+                                }
+                            ],
+                            "muzzle_velocity_m/s": 885,
+                            "max_avg_pressure_kgf/sqcm": 3150
+                        },
+                        {
+                            "name_cn": "1号装药",
+                            "name_en": "No.1 Charge",
+                            "charges": [
+                                {
+                                    "charge_type": "13/7",
+                                    "charge_mass_kg": 5.83
+                                },
+                                {
+                                    "charge_type": "12/1 松钾",
+                                    "charge_mass_kg": 0.7
+                                }
+                            ],
+                            "muzzle_velocity_m/s": 770,
+                            "max_avg_pressure_kgf/sqcm": 3150
+                        },
+                        {
+                            "name_cn": "2号装药",
+                            "name_en": "No.2 Charge",
+                            "charges": [
+                                {
+                                    "charge_type": "13/7",
+                                    "charge_mass_kg": 4.44
+                                },
+                                {
+                                    "charge_type": "12/1 松钾",
+                                    "charge_mass_kg": 0.7
+                                }
+                            ],
+                            "muzzle_velocity_m/s": 660
+                        },
+                        {
+                            "name_cn": "基本装药",
+                            "name_en": "Base Charge",
+                            "charges": [
+                                {
+                                    "charge_type": "13/7",
+                                    "charge_mass_kg": 3.05
+                                },
+                                {
+                                    "charge_type": "12/1 松钾",
+                                    "charge_mass_kg": 0.7
+                                }
+                            ],
+                            "muzzle_velocity_m/s": 550,
+                            "max_avg_pressure_kgf/sqcm": 1000
+                        }
+                    ] 
+                },
+                {
+                    "name_cn": "WB 431P 发烟弹",
+                    "name_en": "WB 431P Smoke Round",
+                    "shell_types": "Smoke",
+                    "shot_mass_kg": 28.2,
+                    "i_43": 1.0,
+                    "c_43": 0.504,
+                    "loads": [
+                        {
+                            "name_cn": "全装药",
+                            "name_en": "Full Charge",
+                            "charges": [
+                                {
+                                    "name_cn": "上下药束 + 散药",
+                                    "name_en": "Top/Bottom Bundle + Loose Grains",
+                                    "charge_type": "双芳-2 19/1",
+                                    "comment": "上下药束各4公斤，其余散药",
+                                    "charge_mass_kg": 9.8
+                                }
+                            ],
+                            "muzzle_velocity_m/s": 874,
+                            "max_avg_pressure_kgf/sqcm": 3228
+                        }
+                    ]
+                },
+                {
+                    "name_cn": "WB 413P 照明弹",
+                    "name_en": "WB 431P Illumination Round",
+                    "shell_types": "Star",
+                    "shot_mass_kg": 24.7,
+                    "i_43": 1.0,
+                    "c_43": 0.6,
+                    "loads": [
+                        {
+                            "name_cn": "全装药",
+                            "name_en": "Full Charge",
+                            "charges": [
+                                {
+                                    "name_cn": "上下药束 + 散药",
+                                    "name_en": "Top/Bottom Bundle + Loose Grains",
+                                    "charge_type": "双芳-2 19/1",
+                                    "comment": "上下药束各4公斤，其余散药",
+                                    "charge_mass_kg": 9.8
+                                }
+                            ],
+                            "muzzle_velocity_m/s": 885,
+                            "max_avg_pressure_kgf/sqcm": 2880
+                        }
+                    ]
+                },
+                {
+                    "name_cn": "WB 430P 宣传弹",
+                    "name_en": "WB 430P Propaganda",
+                    "shell_types": "Leaflet",
+                    "shot_mass_kg": 25.9,
+                    "i_43": 1.0,
+                    "c_43": 0.57,
+                    "loads": [
+                        {
+                            "name_cn": "全装药",
+                            "name_en": "Full Charge",
+                            "charges": [
+                                {
+                                    "name_cn": "上下药束 + 散药",
+                                    "name_en": "Top/Bottom Bundle + Loose Grains",
+                                    "charge_type": "双芳-2 19/1",
+                                    "comment": "上下药束各4公斤，其余散药",
+                                    "charge_mass_kg": 9.8
+                                }
+                            ],
+                            "muzzle_velocity_m/s": 899,
+                            "max_avg_pressure_kgf/sqcm": 3024
+                        }
+                    ]
+                },
+                {
+                    "name_cn": "WB 438P 燃烧弹",
+                    "name_en": "WB 438P Incendiary",
+                    "shell_types": "Incendiary",
+                    "shot_mass_kg": 25.7,
+                    "i_43": 1.12,
+                    "c_43": 0.65,
+                    "loads": [
+                        {
+                            "name_cn": "全装药",
+                            "name_en": "Full Charge",
+                            "charges": [
+                                {
+                                    "name_cn": "上下药束 + 散药",
+                                    "name_en": "Top/Bottom Bundle + Loose Grains",
+                                    "charge_type": "双芳-2 19/1",
+                                    "comment": "上下药束各4公斤，其余散药",
+                                    "charge_mass_kg": 9.8
+                                }
+                            ],
+                            "muzzle_velocity_m/s": 896,
+                            "max_avg_pressure_kgf/sqcm": 2990
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "name_cn": "1963年式122毫米榴弹炮",
             "name_en": "Type 63 122mm Howitzer",
             "comment": "为我国自行设计，制造。用1937年122加（A-19）的榴弹弹丸，通过重新设计药筒和装药，使得射程提升至15公里，全炮重3.2吨。我军出于火炮性能不先进，机动性能不够好，弹丸不通用（1937年式122毫米加农炮我国不生产）考虑，定型后作储备处理，不予列装。内弹道设计、弹重、装药划分与空气阻力系数参考《火炮内弹道计算手册》；高低射界参考《国产火炮手册（说明部分）》。",
@@ -2745,6 +2448,134 @@
             ]
         },
         {
+            "name_cn":"1959年式130毫米加农炮",
+            "name_en": "Type 59 130mm Gun (M-46)",
+            "comment": "为我国仿制自[苏]M-46(M1954，GRAU编号52-P-482)型加农炮，该炮为1959年式152毫米火炮的姊妹炮，与其使用相同炮架。在我国，有同弹道的1959年-1式130毫米加农炮的改进型号。内弹道构型，装药设计与空气阻力系数参考《火炮内弹道计算手册》及《炮弹火箭弹手册》；高低射界参考《国产火炮手册（说明部分）》。",
+            "caliber_mm": 130,
+            "max_elev_deg": 45,
+            "min_elev_deg": -2.5,
+            "firing_arc_left_deg": 25,
+            "firing_arc_right_deg": 25,
+            "shells": [
+                {
+                    "name_cn": "WB 005P 杀伤爆破榴弹",
+                    "name_en": "WB 005P High Explosive Fragmentation",
+                    "shell_types": "HE-Frag",
+                    "shot_mass_kg": 33.4,
+                    "chamber_length_dm": 8.98,
+                    "chamber_volume_L": 18.58,
+                    "travel_dm": 59.52,
+                    "i_43": 1.0,
+                    "c_43": 0.51,
+                    "loads": [
+                        {
+                            "name_cn": "全装药",
+                            "name_en": "Full Charge",
+                            "charges": [
+                                {
+                                    "name_cn": "附加药束 + 上中间药束 + 下药束 + 散装药",
+                                    "name_en": "Additional + Top + Bottom Bundles + Loose Grains",
+                                    "comment": "附加药束1.9公斤，上中间药束重3.2公斤，下药束5.3公斤，散装药2.5公斤",
+                                    "charge_type": "双芳-3 23/1",
+                                    "charge_mass_kg": 12.9
+                                }
+                            ],
+                            "max_avg_pressure_kgf/sqcm": 3150,
+                            "muzzle_velocity_m/s": 930
+                        },
+                        {
+                            "name_cn": "一号装药",
+                            "name_en": "No.1 Charge",
+                            "charges": [
+                                {
+                                    "name_cn": "上中间药束 + 下药束 + 散装药",
+                                    "name_en": "Top + Bottom Bundles + Loose Grains",
+                                    "comment": "上中间药束重3.2公斤，下药束5.3公斤，散装药2.5公斤",
+                                    "charge_type": "双芳-3 23/1",
+                                    "charge_mass_kg": 11
+                                }
+                            ],
+                            "max_avg_pressure_kgf/sqcm": 3000,
+                            "muzzle_velocity_m/s": 810
+                        },
+                        {
+                            "name_cn": "二号装药",
+                            "name_en": "No.2 Charge",
+                            "charges": [
+                                {
+                                    "charge_type": "9/7",
+                                    "charge_mass_kg": 5.80
+                                },
+                                {
+                                    "charge_type": "12/1",
+                                    "charge_mass_kg": 0.70
+                                }
+                            ],
+                            "max_avg_pressure_kgf/sqcm": 2700,
+                            "muzzle_velocity_m/s": 705
+                        },
+                        {
+                            "name_cn": "三号装药",
+                            "name_en": "No.3 Charge",
+                            "charges": [
+                                {
+                                    "charge_type": "9/7",
+                                    "charge_mass_kg": 4.52
+                                },
+                                {
+                                    "charge_type": "12/1",
+                                    "charge_mass_kg": 0.70
+                                }
+                            ],
+                            "muzzle_velocity_m/s": 620
+                        },
+                        {
+                            "name_cn": "四号装药",
+                            "name_en": "No.4 Charge",
+                            "charges": [
+                                {
+                                    "charge_type": "9/7",
+                                    "charge_mass_kg": 3.22
+                                },
+                                {
+                                    "charge_type": "12/1",
+                                    "charge_mass_kg": 0.70
+                                }
+                            ],
+                            "max_avg_pressure_kgf/sqcm": 1100,
+                            "muzzle_velocity_m/s": 525
+                        }
+                    ]
+                },
+                {
+                    "name_cn": "WB 621WJS 发烟弹",
+                    "name_en": "WB 621WJS Smoke Round",
+                    "shell_types": "Smoke",
+                    "shot_mass_kg": 32.47,
+                    "chamber_volume_L": 17.61,
+                    "travel_dm": 59.52,
+                    "i_43": 1.0,
+                    "loads": [
+                        {
+                            "name_cn": "全装药",
+                            "name_en": "Full Charge",
+                            "charges": [
+                                {
+                                    "name_cn": "附加药束 + 上中间药束 + 下药束 + 散装药",
+                                    "name_en": "Additional + Top + Bottom Bundles + Loose Grains",
+                                    "comment": "附加药束1.9公斤，上中间药束重3.2公斤，下药束5.3公斤，散装药2.5公斤",
+                                    "charge_type": "双芳-3 23/1",
+                                    "charge_mass_kg": 12.9
+                                }
+                            ],
+                            "max_avg_pressure_kgf/sqcm": 3070,
+                            "muzzle_velocity_m/s": 935.48
+                        }
+                    ]
+                }
+            ]
+        },
+                {
             "name_cn": "1956年式152毫米榴弹炮",
             "name_en": "Type 56 152mm Howitzer (D-1)",
             "comment": "为我国以[苏]D-1(M1943)榴弹炮为基础仿制。装药划分，内弹道构型与弹型系数参考《火炮内弹道计算手册》；装药设计与各级初速参考苏联D-1火炮的射表；炮架高低射界参考《国产火炮手册（说明部分）》。",
@@ -2935,7 +2766,87 @@
                             "muzzle_velocity_m/s": 258
                         }
                     ]
-
+                }
+            ]
+        },
+        {
+            "name_cn": "1959年式152毫米加农炮",
+            "name_en": "Type 59 152mm Gun (M-47)",
+            "comment": "为我国仿制并改进自[苏]M-47型加农炮。该炮与1959年式130毫米加农炮的苏联原型为姊妹炮，共用炮架设计。空气阻力系数，内弹道构型，装药设计参考《火炮内弹道计算手册》及《炮弹火箭弹手册》；炮架射界参考《国产火炮手册（说明部分）》。",
+            "caliber_mm": 152.4,
+            "max_elev_deg": 45,
+            "min_elev_deg": -2.5,
+            "firing_arc_left_deg": 25,
+            "firing_arc_right_deg": 25,
+            "shells": [
+                {
+                    "name_cn": "WB 008P 杀伤爆破榴弹",
+                    "name_en": "WB 008P High Explosive Fragmentation Round",
+                    "shell_types": "HE-Frag",
+                    "shot_mass_kg": 43.56,
+                    "chamber_length_dm": 7.73,
+                    "chamber_volume_L": 17.27,
+                    "travel_dm": 55.77,
+                    "i_43": 1.1,
+                    "c_43": 0.6,
+                    "loads": [
+                        {
+                            "name_cn": "全装药",
+                            "name_en": "Full Charge",
+                            "charges": [
+                                {
+                                    "charge_type":"双芳-3 19/1",
+                                    "charge_mass_kg": 10.67
+                                }
+                            ],
+                            "muzzle_velocity_m/s": 770,
+                            "max_avg_pressure_kgf/sqcm": 2350 
+                        },
+                        {
+                            "name_cn": "一号装药",
+                            "name_en": "No.1 Charge",
+                            "charges": [
+                                {
+                                    "charge_type":"双芳-3 19/1",
+                                    "charge_mass_kg": 8.45
+                                }
+                            ],
+                            "muzzle_velocity_m/s": 635,
+                            "max_avg_pressure_kgf/sqcm": 1000
+                        },
+                        {
+                            "name_cn": "二号装药",
+                            "name_en": "No.2 Charge",
+                            "charges": [
+                                {
+                                    "charge_type":"4/1",
+                                    "charge_mass_kg": 3.465
+                                },
+                                {
+                                    "charge_type": "12/1",
+                                    "charge_mass_kg": 0.25
+                                }
+                            ],
+                            "muzzle_velocity_m/s": 500,
+                            "max_avg_pressure_kgf/sqcm": 2350
+                        },
+                        {
+                            "name_cn": "三号装药",
+                            "name_en": "No.3 Charge",
+                            "charges": [
+                                {
+                                    "charge_type":"4/1",
+                                    "charge_mass_kg": 2.05
+                                },
+                                {
+                                    "charge_type": "12/1",
+                                    "charge_mass_kg": 0.25
+                                }
+                            ],
+                            "muzzle_velocity_m/s": 380,
+                            "max_avg_pressure_kgf/sqcm": 900
+                        }
+                    ]
                 }
             ]
         },
@@ -3126,7 +3037,97 @@
                     ]     
                 }
             ]
+        },
+        {
+            "name_cn": "1983年式152毫米加农炮",
+            "name_en": "Type 83 152mm Gun",
+            "comment": "为我国自行设计，制造。该炮在1983年通过了外贸鉴定，并成功出口；后经过改进（推测为焊接钢药筒取代了药包式装药），在1986年完成了国内设计定型，自用列装型号为1986年式152毫米加农炮。注意，该火炮并非搭载于1983年式自行加榴炮的改进型1966式152毫米加榴炮。空气阻力系数，内弹道构型，装药设计参考《火炮内弹道计算手册》。",
+            "caliber_mm": 152.4,
+            "shells": [
+                {
+                    "name_cn": "WB 028 杀伤爆破榴弹",
+                    "name_en": "WB 028 High Explosive Fragmentation",
+                    "shell_types": "HE-Frag",
+                    "shot_mass_kg": 48,
+                    "chamber_length_dm": 9.69,
+                    "chamber_volume_L": 30.57,
+                    "travel_dm": 70.91,
+                    "i_43": 0.892,
+                    "loads": [
+                        {
+                            "name_cn": "全装药",
+                            "name_en": "Full Charge",
+                            "charges": [
+                                {
+                                    "charge_type": "单芳-1 22/7",
+                                    "charge_mass_kg": 21.09
+                                }
+                            ],
+                            "muzzle_velocity_m/s": 955,
+                            "max_avg_pressure_kgf/sqcm": 3100,
+                            "c_43": 0.4316,
+                            "i_43": 0.892
+                        },
+                        {
+                            "name_cn": "一号装药",
+                            "name_en": "No.1 Charge",
+                            "charges": [
+                                {
+                                    "charge_type": "单芳-1 22/7",
+                                    "charge_mass_kg": 18.8
+                                }
+                            ],
+                            "muzzle_velocity_m/s": 890,
+                            "c_43": 0.4364,
+                            "i_43": 0.902
+                        },
+                        {
+                            "name_cn": "二号装药",
+                            "name_en": "No.2 Charge",
+                            "charges": [
+                                {
+                                    "charge_type": "9/7",
+                                    "charge_mass_kg": 12
+                                }
+                            ],
+                            "muzzle_velocity_m/s": 780,
+                            "c_43": 0.46,
+                            "i_43": 0.95
+                        },
+                        {
+                            "name_cn": "三号装药",
+                            "name_en": "No.3 Charge",
+                            "charges": [
+                                {
+                                    "charge_type": "9/7",
+                                    "charge_mass_kg": 9.10
+                                }
+                            ],
+                            "muzzle_velocity_m/s": 660,
+                            "c_43": 0.4987,
+                            "i_43": 1.031
+                        },
+                        {
+                            "name_cn": "四号装药",
+                            "name_en": "No.4 Charge",
+                            "charges": [
+                                {
+                                    "charge_type": "9/7",
+                                    "charge_mass_kg": 6.2
+                                }
+                            ],
+                            "muzzle_velocity_m/s": 540,
+                            "max_avg_pressure_kgf/sqcm": 960,
+                            "c_43": 0.545,
+                            "i_43": 1.1264
+                        }
+                    ]
+                }
+
+            ]
         }
+
+
     ],
     "charges": [
         {

@@ -315,14 +315,20 @@ class BallisticDB:
     def add_gun(self, gun: Gun):
         self.guns.append(gun)
 
-    def describe(self) -> str:
+    def describe(self, depth: int = 1) -> str:
         string = ""
         for gun in self:
             string += f"{gun.name_en}\n"
+            if depth == 1:
+                continue
             for shell in gun:
                 string += f"\t{shell.name_en}\n"
+                if depth == 2:
+                    continue
                 for load in shell:
                     string += f"\t\t{load.name_en}\n"
+                    if depth == 3:
+                        continue
                     for charge in load:
                         string += f"\t\t\t{charge.name_en}\n"
         return string

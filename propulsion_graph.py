@@ -35,7 +35,6 @@ if __name__ == "__main__":
         color = next(colors)
 
         wmss, vss = [], []
-        # points = []
         for shot in gun:
 
             for kw, marker in marker_dict.items():
@@ -59,22 +58,8 @@ if __name__ == "__main__":
                 s=16,
                 label=gun.name_en + " " + shot.name_en,
             )
-            # points.extend(zip(wms, vs))
-
-        # if len(points) > 1:
-        #     hull = ConvexHull(points)
-
-        #     ax.fill(
-        #         [wmss[v] for v in hull.vertices],
-        #         [vss[v] for v in hull.vertices],
-        #         c=color,
-        #         alpha=0.33,
-        #         linewidth=0,
-        #         edgecolor=color,
-        #     )
 
     ax.legend(loc="lower right", fontsize="xx-small", ncol=2)
-    # ax.legend(loc="upper left", fontsize="small")
 
     ax.set_xlabel("charge to shot mass ratio")
     ax.set_ylabel("velocity m/s")
