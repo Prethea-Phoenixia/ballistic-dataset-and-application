@@ -862,7 +862,7 @@
                 {
                     "name_cn": "WB 122P (100毫米通用)破甲弹",
                     "name_en": "WB 122P (Universal) HEAT Round",
-                    "comment": "该弹通用1973年式100毫米滑膛炮反坦克炮，1959年式100毫米（线膛）坦克炮，1969年式100毫米滑膛坦克炮。",
+                    "comment": "该型弹药为121项目下，配合69式100毫米滑膛坦克炮所研制的三种弹药之一。由于该项目的原因，亦曾称71式，经过改进后定型为73式。该弹通用1973年式100毫米滑膛炮反坦克炮，1959年式100毫米（线膛）坦克炮，1969年式100毫米滑膛坦克炮。",
                     "shell_types": "HEAT",
                     "shot_mass_kg": 10.05,
                     "chamber_volume_L": 7.83,
@@ -1073,7 +1073,7 @@
         {
             "name_cn": "1973年式100毫米滑膛反坦克炮",
             "name_en": "Type 73 100mm Smoothbore Anti-Tank Gun",
-            "comment": "为我国在[苏]BS-3 100毫米加农炮的基础上改进设计，为满足提高膛压增加初速发射尾翼弹的需求，将原身管从线膛改为滑膛，改进身管钢材，除身管外其他部件基本沿用了100毫米加农炮原装结构。内弹道构型，装药设计与空气阻力系数参考《火炮内弹道计算手册》与《炮弹火箭弹手册》；高低射界参考《国产火炮手册（说明部分）》。",
+            "comment": "为我国在[苏]BS-3 100毫米加农炮的基础上改进设计，为满足提高膛压增加初速发射尾翼弹的需求，将原身管从线膛改为滑膛，改进身管钢材，除身管外其他部件基本沿用了100毫米加农炮原装结构。内弹道构型，装药设计与空气阻力系数参考《火炮内弹道计算手册》与《炮弹火箭弹手册》；高低射界参考《国产火炮手册（说明部分）》。WB 132P 弹药数据存疑。",
             "caliber_mm": 100,
             "max_elev_deg": 38,
             "min_elev_deg": -4,
@@ -1083,6 +1083,7 @@
                 {
                     "name_cn": "WB 031P 杀伤爆破榴弹",
                     "name_en": "WB 031P High Explosive Fragmentation",
+                    "comment": "该型弹药为121项目下，配合69式100毫米滑膛坦克炮所研制的三种弹药之一。由于该项目的原因，亦曾称71式，经过改进后定型为73式。该弹通用1973年式100毫米滑膛炮反坦克炮与1969年式100毫米滑膛坦克炮。",
                     "shell_types": "HE-Frag",
                     "shot_mass_kg": 15,
                     "chamber_length_dm": 6.09,
@@ -1112,41 +1113,9 @@
                     ]
                 },
                 {
-                    "name_cn": "WB 125P 脱壳超速穿甲弹",
-                    "name_en": "WB 125P Discarding Sabot High Velocity Armor Piericing Round",
-                    "shell_types": "AP, FS, DS",
-                    "comment": "飞行体3.44公斤。",
-                    "shot_mass_kg": 4.7,
-                    "chamber_length_dm": 7.17,
-                    "chamber_volume_L": 8,
-                    "travel_dm": 47.33,
-                    "i_43": 1.33,
-                    "c_43": 0.7,
-                    "loads": [
-                        {
-                            "charges": [
-                                {
-                                    "charge_type": "9/7",
-                                    "charge_mass_kg": 4.6
-                                },
-                                {
-                                    "charge_type": "18/1",
-                                    "charge_mass_kg": 1.055
-                                },
-                                {
-                                    "charge_type": "8/1 松钾",
-                                    "charge_mass_kg": 0.08
-                                }
-                            ],
-                            "max_avg_pressure_kgf/sqcm": 3300,
-                            "muzzle_velocity_m/s": 1505
-                        }
-                    ]
-                },
-                {
                     "name_cn": "WB 122P (100毫米通用)破甲弹",
                     "name_en": "WB 122P (Universal) HEAT Round",
-                    "comment": "该弹通用1973年式100毫米滑膛炮反坦克炮，1959年式100毫米（线膛）坦克炮，1969年式100毫米滑膛坦克炮。",
+                    "comment": "该型弹药为121项目下，配合69式100毫米滑膛坦克炮所研制的三种弹药之一。由于该项目的原因，亦曾称71式，经过改进后定型为73式。该弹通用1973年式100毫米滑膛炮反坦克炮，1959年式100毫米（线膛）坦克炮，1969年式100毫米滑膛坦克炮。",
                     "shell_types": "HEAT",
                     "shot_mass_kg": 10.05,
                     "chamber_volume_L": 7.83,
@@ -1175,10 +1144,43 @@
                     ]
                 },
                 {
+                    "name_cn": "WB 125P 脱壳超速穿甲弹",
+                    "name_en": "WB 125P Discarding Sabot High Velocity Armor Piericing Round",
+                    "shell_types": "AP, FS, DS",
+                    "comment": "飞行体3.44公斤。该型弹药为121项目下，配合69式100毫米滑膛坦克炮所研制的三种弹药之一。由于该项目的原因，亦曾称71式，经过改进后定型为73式。该弹通用1973年式100毫米滑膛炮反坦克炮与1969年式100毫米滑膛坦克炮。",
+                    "shot_mass_kg": 4.7,
+                    "chamber_length_dm": 7.17,
+                    "chamber_volume_L": 8,
+                    "travel_dm": 47.33,
+                    "i_43": 1.33,
+                    "c_43": 0.7,
+                    "loads": [
+                        {
+                            "charges": [
+                                {
+                                    "charge_type": "9/7",
+                                    "charge_mass_kg": 4.6
+                                },
+                                {
+                                    "charge_type": "18/1",
+                                    "charge_mass_kg": 1.055
+                                },
+                                {
+                                    "charge_type": "8/1 松钾",
+                                    "charge_mass_kg": 0.08
+                                }
+                            ],
+                            "max_avg_pressure_kgf/sqcm": 3300,
+                            "muzzle_velocity_m/s": 1505
+                        }
+                    ]
+                },
+                {
                     "name_cn": "WB 132P 钨心脱壳穿甲弹",
                     "name_en": "WB 132P Tungsten Cored Armor Piercing Discarding Sabot Round",
                     "shell_types": "AP, FS, DS, W",
-                    "shot_mass_kg": 3.44,
+                    "comment": "飞行体3.44公斤。",
+                    "shot_mass_kg": 4.7,
                     "chamber_volume_L": 8,
                     "travel_dm": 47.33,
                     "i_43": 1.33,
@@ -1193,6 +1195,113 @@
                                 {
                                     "charge_type": "18/1",
                                     "charge_mass_kg": 1.05
+                                }
+                            ],
+                            "max_avg_pressure_kgf/sqcm": 3300,
+                            "muzzle_velocity_m/s": 1505
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name_cn": "1969年式100毫米滑膛坦克炮",
+            "name_en": "Type 69 100mm Smoothbore Anti-Tank Gun",
+            "comment": "为我国在1959年式100毫米线膛坦克炮的基础上进行线改滑而成。内弹道构型，装药设计与空气阻力系数参考《火炮内弹道计算手册》与《炮弹火箭弹手册》；高低射界参考《国产火炮手册（说明部分）》。",
+            "caliber_mm": 100,
+            "max_elev_deg": 18,
+            "min_elev_deg": -5,
+            "firing_arc_left_deg": 180,
+            "firing_arc_right_deg": 180,
+            "shells": [
+                {
+                    "name_cn": "WB 031P 杀伤爆破榴弹",
+                    "name_en": "WB 031P High Explosive Fragmentation",
+                    "comment": "该型弹药为121项目下，配合69式100毫米滑膛坦克炮所研制的三种弹药之一。由于该项目的原因，亦曾称71式，经过改进后定型为73式。该弹通用1973年式100毫米滑膛炮反坦克炮与1969年式100毫米滑膛坦克炮。",
+                    "shell_types": "HE-Frag",
+                    "shot_mass_kg": 15,
+                    "chamber_length_dm": 6.09,
+                    "chamber_volume_L": 7.73,
+                    "travel_dm": 48.41,
+                    "i_43": 1.67,
+                    "c_43": 1.11,
+                    "loads": [
+                        {
+                            "charges": [
+                                {
+                                    "charge_type": "14/7",
+                                    "charge_mass_kg": 0.75
+                                },
+                                {
+                                    "charge_type": "20/1",
+                                    "charge_mass_kg": 4.3
+                                },
+                                {
+                                    "charge_type": "10/1 松钾",
+                                    "charge_mass_kg": 0.15
+                                }
+                            ],
+                            "max_avg_pressure_kgf/sqcm": 3000,
+                            "muzzle_velocity_m/s": 900
+                        }
+                    ]
+                },
+                {
+                    "name_cn": "WB 122P (100毫米通用)破甲弹",
+                    "name_en": "WB 122P (Universal) HEAT Round",
+                    "comment": "该型弹药为121项目下，配合69式100毫米滑膛坦克炮所研制的三种弹药之一。由于该项目的原因，亦曾称71式，经过改进后定型为73式。该弹通用1973年式100毫米滑膛炮反坦克炮，1959年式100毫米（线膛）坦克炮，1969年式100毫米滑膛坦克炮。",
+                    "shell_types": "HEAT",
+                    "shot_mass_kg": 10.05,
+                    "chamber_volume_L": 7.83,
+                    "travel_dm": 47.94,
+                    "i_43": 2.818,
+                    "c_43": 2.805,
+                    "loads": [
+                        {
+                            "charges": [
+                                {
+                                    "charge_type": "13/7",
+                                    "charge_mass_kg": 3.84
+                                },
+                                {
+                                    "charge_type": "18/1",
+                                    "charge_mass_kg": 0.82
+                                },
+                                {
+                                    "charge_type": "10/1 松钾",
+                                    "charge_mass_kg": 0.14
+                                }
+                            ],
+                            "max_avg_pressure_kgf/sqcm": 2530,
+                            "muzzle_velocity_m/s": 1000
+                        }
+                    ]
+                },
+                {
+                    "name_cn": "WB 125P 脱壳超速穿甲弹",
+                    "name_en": "WB 125P Discarding Sabot High Velocity Armor Piericing Round",
+                    "shell_types": "AP, FS, DS",
+                    "comment": "飞行体3.44公斤。该型弹药为121项目下，配合69式100毫米滑膛坦克炮所研制的三种弹药之一。由于该项目的原因，亦曾称71式，经过改进后定型为73式。该弹通用1973年式100毫米滑膛炮反坦克炮与1969年式100毫米滑膛坦克炮。",
+                    "shot_mass_kg": 4.7,
+                    "chamber_length_dm": 7.17,
+                    "chamber_volume_L": 8,
+                    "travel_dm": 47.33,
+                    "i_43": 1.33,
+                    "c_43": 0.7,
+                    "loads": [
+                        {
+                            "charges": [
+                                {
+                                    "charge_type": "9/7",
+                                    "charge_mass_kg": 4.6
+                                },
+                                {
+                                    "charge_type": "18/1",
+                                    "charge_mass_kg": 1.055
+                                },
+                                {
+                                    "charge_type": "8/1 松钾",
+                                    "charge_mass_kg": 0.08
                                 }
                             ],
                             "max_avg_pressure_kgf/sqcm": 3300,
