@@ -2,7 +2,7 @@
     "guns":[
         {
             "name_cn": "1955年式57毫米反坦克炮",
-            "name_en": "Type 1955 57mm Anti-Tank Gun (ZiS-2)",
+            "name_en": "Type 55 57mm Anti-Tank Gun (ZiS-2)",
             "comment": "为我国按照52-P-271A型图纸及其技术条件试制生产的[苏]ZiS-2型57毫米反坦克炮。炮架射界参考《国产火炮手册（说明部分）》及《炮弹火箭弹手册》；内弹道构型，空气阻力系数参考《火炮内弹道计算手册》。",
             "caliber_mm": 57,
             "max_elev_deg": 25,
@@ -37,7 +37,7 @@
         },
         {
             "name_cn": "1959年式57毫米高射炮",
-            "name_en": "Type 1959 57mm AA Gun (S-60)",
+            "name_en": "Type 59 57mm AA Gun (S-60)",
             "comment": "为我国在[苏]S-60式57毫米高射炮基础上仿制并作部分改进的型号。该型号于1963年开始研制，1965年进行定型，对改进的部分于1980年进行补充定型试验，在1981年又根据外贸需求进行了改进。",
             "caliber_mm": 57,
             "max_elev_deg": 87,
@@ -96,7 +96,7 @@
         },
         {
             "name_cn": "1954年式76毫米加农炮",
-            "name_en": "Type 1954 76mm Gun (ZiS-3)",
+            "name_en": "Type 54 76mm Gun (ZiS-3)",
             "comment": "为我国按苏联52-P-354U型图纸及其技术条件试制生产的[苏]ZiS-3型76.2毫米加农炮。炮架射界参考《国产火炮手册（说明部分）》及《炮弹火箭弹手册》；内弹道构型，空气阻力系数参考《火炮内弹道计算手册》。",
             "caliber_mm": 76.2,
             "max_elev_deg": 37,
@@ -133,7 +133,7 @@
         },
         {
             "name_cn": "1956年式85毫米加农炮",
-            "name_en": "Type 1956 85mm Gun (D-44)",
+            "name_en": "Type 56 85mm Gun (D-44)",
             "comment": "为我国仿制并改进自[苏]D-44 85毫米加农炮。空气阻力系数参考《火炮内弹道计算手册》及《炮弹火箭弹手册》，有冲突时优先后者；内弹道构型，装药设计参考《火炮内弹道计算手册》；炮架射界参考《国产火炮手册（说明部分）》;",
             "caliber_mm": 85,
             "max_elev_deg": 35,
@@ -362,7 +362,7 @@
         },
         {
             "name_cn": "1972年式85毫米高射炮",
-            "name_en": "Type 1972 85mm AA Gun",
+            "name_en": "Type 72 85mm AA Gun",
             "comment": "为我国自研，又称“72式85高炮”。空气阻力系数，内弹道构型，装药设计参考《火炮内弹道计算手册》及《炮弹火箭弹手册》；炮架射界参考《国产火炮手册（说明部分）》。",
             "caliber_mm": 85,
             "max_elev_deg": 87,
@@ -398,7 +398,7 @@
         },
         {
             "name_cn": "1963年式85毫米坦克炮",
-            "name_en": "Type 1963 85mm Tank Gun",
+            "name_en": "Type 63 85mm Tank Gun",
             "comment": "为我国仿制[苏]T-34坦克所配火炮，62年进行图纸整编，产品标记为62-85T。同年，结合我国自行生产131轻型坦克（62式）以及211水陆两用坦克(63式）的装配需求，在改进后，重新设计了带抽气装置的85毫米坦克炮，于64年批准定型生产，命名为63-85坦，产品标记62-85T_c。内弹道构型，空气阻力系数，以及装药设计参考《火炮内弹道计算手册》及《炮弹火箭弹手册》；炮架射界参考《国产火炮手册（说明部分）》。",
             "caliber_mm": 85,
             "max_elev_deg": 22,
@@ -582,15 +582,15 @@
             ]
         },
         {
-            "name_cn": "1944年式100毫米加农炮",
-            "name_en": "100mm Field Gun M1944 (BS-3)",
-            "comment": "[苏]BS-3型100毫米野战/反坦克炮，其装备情况推测为：国内对该型号火炮有一定数目的引进但未投入火炮国产化。其部分弹药有生产。内弹道构型，空气阻力系数以及装药设计参考《火炮内弹道计算手册》及《炮弹火箭弹手册》。",
+            "name_cn": "1944与1959年式100毫米加农炮",
+            "name_en": "100mm Field Gun M1944 (BS-3) & Type 59 100mm Gun",
+            "comment": "1944年式100毫米加农炮为[苏]BS-3型100毫米野战炮的国内称呼，其国内仿制改进型号应为1959年式。内弹道构型，空气阻力系数以及装药设计参考《火炮内弹道计算手册》及《炮弹火箭弹手册》。",
             "caliber_mm": 100,
             "shells": [
                 {
                     "name_cn": "WB 004P 杀伤爆破榴弹",
                     "name_en": "WB 004P High Explosive Fragmentation Round",
-                    "comment": "该弹通用1944年式100毫米加农炮，1959式100毫米高射炮及100毫米坦克炮。",
+                    "comment": "该弹通用1944年式100毫米加农炮，1959式100毫米高射炮及1959年式100毫米坦克炮。",
                     "shell_types": "HE-Frag",
                     "shot_mass_kg": 15.6,
                     "chamber_length_dm": 6.07,
@@ -600,19 +600,22 @@
                     "c_43": 0.7,
                     "loads": [
                         {
-                            "name_cn": "全装药",
-                            "name_en": "Full Charge",
+                            "name_cn": "全装药（铜药筒）",
+                            "name_en": "Full Charge (Copper Case)",
+                            "comment": "此处登录数据反应的是早期生产中采用铜制药筒，装药略少。",
                             "charges": [
                                 {
                                     "name_cn": "中间药束",
                                     "name_en": "Center Bundle",
                                     "charge_type": "双芳-3 18/1",
+                                    "comment": "或乙芳",
                                     "charge_mass_kg": 1.85
                                 },
                                 {
                                     "name_cn": "散药",
                                     "name_en": "Filler Charge",
                                     "charge_type": "双芳-3 18/1",
+                                    "comment": "或乙芳",
                                     "charge_mass_kg": 3.65
                                 }
                             ],
@@ -620,8 +623,31 @@
                             "max_avg_pressure_kgf/sqcm": 3000
                         },
                         {
-                            "name_cn": "减装药",
-                            "name_en": "Reduced Charge",
+                            "name_cn": "全装药（钢药筒）",
+                            "name_en": "Full Charge (Steel Case)",
+                            "comment": "此处登录数据反应的是后期生产换用钢壳后，由于药筒内容积增大，装药量有少量提升，但弹道视作不变。",
+                            "charges": [
+                                {
+                                    "name_cn": "中间药束",
+                                    "name_en": "Center Bundle",
+                                    "charge_type": "双芳-3 18/1",
+                                    "comment": "或乙芳",
+                                    "charge_mass_kg": 1.85
+                                },
+                                {
+                                    "name_cn": "散药",
+                                    "name_en": "Filler Charge",
+                                    "charge_type": "双芳-3 18/1",
+                                    "comment": "或乙芳",
+                                    "charge_mass_kg": 3.75
+                                }
+                            ],
+                            "muzzle_velocity_m/s": 900,
+                            "max_avg_pressure_kgf/sqcm": 3000
+                        },
+                        {
+                            "name_cn": "减装药（铜药筒）",
+                            "name_en": "Reduced Charge (Copper Case)",
                             "charges": [
                                 {
                                     "charge_type": "9/7 散药 + 12/1 药束",
@@ -636,7 +662,7 @@
                 {
                     "name_cn": "WB 116P 曳光被帽穿甲弹",
                     "name_en": "WB 116P Armor Piercing Capped Tracer Round",
-                    "comment": "该弹通用1944年式100毫米加农炮，1959式100毫米高射炮及100毫米坦克炮。",
+                    "comment": "该弹通用1944年式100毫米加农炮，1959式100毫米高射炮及1959年式100毫米坦克炮。",
                     "shell_types": "AP, Capped, Tracer",
                     "shot_mass_kg": 15.88,
                     "travel_dm": 50.8,
@@ -644,11 +670,46 @@
                     "c_43": 0.64,
                     "loads": [
                         {
+                            "name_cn": "正常装药（铜药筒）",
+                            "name_en": "Normal Charge (Copper Case)",
+                            "comment": "此处登录数据反应的是早期生产中采用铜制药筒，装药略少。",
                             "charges": [
-                                {  
-                                    "charge_type": "双芳-3 18/1-26",
-                                    "comment": "或乙芳-3 18/1-26",
-                                    "charge_mass_kg": 5.6
+                                {
+                                    "name_cn": "中间药束",
+                                    "name_en": "Center Bundle",
+                                    "charge_type": "双芳-3 18/1",
+                                    "comment": "或乙芳",
+                                    "charge_mass_kg": 1.85
+                                },
+                                {
+                                    "name_cn": "散药",
+                                    "name_en": "Filler Charge",
+                                    "charge_type": "双芳-3 18/1",
+                                    "comment": "或乙芳",
+                                    "charge_mass_kg": 3.65
+                                }
+                            ],
+                            "muzzle_velocity_m/s": 902.5,
+                            "max_avg_pressure_kgf/sqcm": 3000
+                        },
+                        {
+                            "name_cn": "正常装药（钢药筒）",
+                            "name_en": "Normal Charge (Steel Case)",
+                            "comment": "此处登录数据反应的是后期生产换用钢壳后，由于药筒内容积增大，装药量有少量提升，但弹道视作不变。",
+                            "charges": [
+                                {
+                                    "name_cn": "中间药束",
+                                    "name_en": "Center Bundle",
+                                    "charge_type": "双芳-3 18/1",
+                                    "comment": "或乙芳",
+                                    "charge_mass_kg": 1.85
+                                },
+                                {
+                                    "name_cn": "散药",
+                                    "name_en": "Filler Charge",
+                                    "charge_type": "双芳-3 18/1",
+                                    "comment": "或乙芳",
+                                    "charge_mass_kg": 3.75
                                 }
                             ],
                             "muzzle_velocity_m/s": 902.5,
@@ -660,7 +721,7 @@
         },
         {
             "name_cn": "1959年式100毫米坦克炮",
-            "name_en": "Type 1959 100mm Tank Gun (D-10T)",
+            "name_en": "Type 59 100mm Tank Gun (D-10T)",
             "comment": "为我国仿制并改进自[苏]T-54A型坦克之[苏]D-10T 100毫米坦克炮。空气阻力系数，内弹道构型，装药设计参考《火炮内弹道计算手册》及《炮弹火箭弹手册》；炮架射界参考《国产火炮手册（说明部分）》。",
             "caliber_mm": 100,
             "max_elev_deg": 18,
@@ -671,7 +732,7 @@
                 {
                     "name_cn": "WB 004P 杀伤爆破榴弹",
                     "name_en": "WB 004P High Explosive Fragmentation Round",
-                    "comment": "该弹通用1944年式100毫米加农炮，1959式100毫米高射炮及100毫米坦克炮。",
+                    "comment": "该弹通用1944年式100毫米加农炮，1959式100毫米高射炮及1959年式100毫米坦克炮。",
                     "shell_types": "HE-Frag",
                     "shot_mass_kg": 15.6,
                     "chamber_length_dm": 6.07,
@@ -681,19 +742,22 @@
                     "c_43": 0.7,
                     "loads": [
                         {
-                            "name_cn": "全装药",
-                            "name_en": "Full Charge",
+                            "name_cn": "全装药（铜药筒）",
+                            "name_en": "Full Charge (Copper Case)",
+                            "comment": "此处登录数据反应的是早期生产中采用铜制药筒，装药略少。",
                             "charges": [
                                 {
                                     "name_cn": "中间药束",
                                     "name_en": "Center Bundle",
                                     "charge_type": "双芳-3 18/1",
+                                    "comment": "或乙芳",
                                     "charge_mass_kg": 1.85
                                 },
                                 {
                                     "name_cn": "散药",
                                     "name_en": "Filler Charge",
                                     "charge_type": "双芳-3 18/1",
+                                    "comment": "或乙芳",
                                     "charge_mass_kg": 3.65
                                 }
                             ],
@@ -701,8 +765,31 @@
                             "max_avg_pressure_kgf/sqcm": 3000
                         },
                         {
-                            "name_cn": "减装药",
-                            "name_en": "Reduced Charge",
+                            "name_cn": "全装药（钢药筒）",
+                            "name_en": "Full Charge (Steel Case)",
+                            "comment": "此处登录数据反应的是后期生产换用钢壳后，由于药筒内容积增大，装药量有少量提升，但弹道视作不变。",
+                            "charges": [
+                                {
+                                    "name_cn": "中间药束",
+                                    "name_en": "Center Bundle",
+                                    "charge_type": "双芳-3 18/1",
+                                    "comment": "或乙芳",
+                                    "charge_mass_kg": 1.85
+                                },
+                                {
+                                    "name_cn": "散药",
+                                    "name_en": "Filler Charge",
+                                    "charge_type": "双芳-3 18/1",
+                                    "comment": "或乙芳",
+                                    "charge_mass_kg": 3.75
+                                }
+                            ],
+                            "muzzle_velocity_m/s": 900,
+                            "max_avg_pressure_kgf/sqcm": 3000
+                        },
+                        {
+                            "name_cn": "减装药（铜药筒）",
+                            "name_en": "Reduced Charge (Copper Case)",
                             "charges": [
                                 {
                                     "charge_type": "9/7 散药 + 12/1 药束",
@@ -717,7 +804,7 @@
                 {
                     "name_cn": "WB 116P 曳光被帽穿甲弹",
                     "name_en": "WB 116P Armor Piercing Capped Tracer Round",
-                    "comment": "该弹通用1944年式100毫米加农炮，1959式100毫米高射炮及100毫米坦克炮。",
+                    "comment": "该弹通用1944年式100毫米加农炮，1959式100毫米高射炮及1959年式100毫米坦克炮。",
                     "shell_types": "AP, Capped, Tracer",
                     "shot_mass_kg": 15.88,
                     "travel_dm": 50.8,
@@ -725,22 +812,57 @@
                     "c_43": 0.64,
                     "loads": [
                         {
+                            "name_cn": "正常装药（铜药筒）",
+                            "name_en": "Normal Charge (Copper Case)",
+                            "comment": "此处登录数据反应的是早期生产中采用铜制药筒，装药略少。",
                             "charges": [
-                                {  
-                                    "charge_type": "双芳-3 18/1-26",
-                                    "comment": "或乙芳-3 18/1-26",
-                                    "charge_mass_kg": 5.6
+                                {
+                                    "name_cn": "中间药束",
+                                    "name_en": "Center Bundle",
+                                    "charge_type": "双芳-3 18/1",
+                                    "comment": "或乙芳",
+                                    "charge_mass_kg": 1.85
+                                },
+                                {
+                                    "name_cn": "散药",
+                                    "name_en": "Filler Charge",
+                                    "charge_type": "双芳-3 18/1",
+                                    "comment": "或乙芳",
+                                    "charge_mass_kg": 3.65
+                                }
+                            ],
+                            "muzzle_velocity_m/s": 902.5,
+                            "max_avg_pressure_kgf/sqcm": 3000
+                        },
+                        {
+                            "name_cn": "正常装药（钢药筒）",
+                            "name_en": "Normal Charge (Steel Case)",
+                            "comment": "此处登录数据反应的是后期生产换用钢壳后，由于药筒内容积增大，装药量有少量提升，但弹道视作不变。",
+                            "charges": [
+                                {
+                                    "name_cn": "中间药束",
+                                    "name_en": "Center Bundle",
+                                    "charge_type": "双芳-3 18/1",
+                                    "comment": "或乙芳",
+                                    "charge_mass_kg": 1.85
+                                },
+                                {
+                                    "name_cn": "散药",
+                                    "name_en": "Filler Charge",
+                                    "charge_type": "双芳-3 18/1",
+                                    "comment": "或乙芳",
+                                    "charge_mass_kg": 3.75
                                 }
                             ],
                             "muzzle_velocity_m/s": 902.5,
                             "max_avg_pressure_kgf/sqcm": 3000
                         }
                     ]
-                },
+                },    
                 {
                     "name_cn": "WB 122P (100毫米通用)破甲弹",
-                    "name_en": "WB 122P (100 Universal) HEAT Round",
-                    "comment": "该弹通用1973年式100毫米滑膛炮反坦克炮，1959年式100毫米（线膛）坦克炮，1969年式100毫米滑膛坦克炮。"
+                    "name_en": "WB 122P (Universal) HEAT Round",
+                    "comment": "该弹通用1973年式100毫米滑膛炮反坦克炮，1959年式100毫米（线膛）坦克炮，1969年式100毫米滑膛坦克炮。",
                     "shell_types": "HEAT",
                     "shot_mass_kg": 10.05,
                     "chamber_volume_L": 7.83,
@@ -767,12 +889,12 @@
                             "muzzle_velocity_m/s": 1000
                         }
                     ]
-                }
+                }   
             ]
-        }
+        },
         {
             "name_cn": "1959年式100毫米高射炮",
-            "name_en": "Type 1959 100mm AA Gun (KS-19)",
+            "name_en": "Type 59 100mm AA Gun (KS-19)",
             "comment": "为我国仿制并改进自[苏]KS-19M2型高射炮。空气阻力系数，内弹道构型，装药设计参考《火炮内弹道计算手册》及《炮弹火箭弹手册》；炮架射界参考《国产火炮手册（说明部分）》。",
             "caliber_mm": 100,
             "max_elev_deg": 85,
@@ -781,45 +903,9 @@
             "firing_arc_right_deg": 180,
             "shells": [
                 {
-                    "name_cn": "WB 016P, WB 435P 空炸杀伤榴弹",
-                    "name_en": "WB 016P, WB 435P Air Burst Fragmentation Round",
-                    "shell_types": "Airburst, Frag",
-                    "shot_mass_kg": 15.6,
-                    "chamber_length_dm": 6.07,
-                    "chamber_volume_L": 7.985,
-                    "travel_dm": 47.43,
-                    "i_43": 1.0,
-                    "loads": [
-                        {
-                            "name_cn": "钢药筒",
-                            "name_en": "Steel Cartridge",
-                            "charges": [
-                                {
-                                    "charge_type": "双芳-3 18/1",
-                                    "charge_mass_kg": 5.66
-                                }
-                            ],
-                            "muzzle_velocity_m/s": 902.5,
-                            "max_avg_pressure_kgf/sqcm": 3000
-                        },
-                        {
-                            "name_cn": "铜药筒",
-                            "name_en": "Copper Cartridge",
-                            "charges": [
-                                {
-                                    "charge_type": "双芳-3 18/1",
-                                    "charge_mass_kg": 5.5
-                                }
-                            ],
-                            "muzzle_velocity_m/s": 902.5,
-                            "max_avg_pressure_kgf/sqcm": 3000
-                        }
-                    ]
-                },
-                {
                     "name_cn": "WB 004P 杀伤爆破榴弹",
                     "name_en": "WB 004P High Explosive Fragmentation Round",
-                    "comment": "该弹通用1944年式100毫米加农炮，1959式100毫米高射炮及100毫米坦克炮。",
+                    "comment": "该弹通用1944年式100毫米加农炮，1959式100毫米高射炮及1959年式100毫米坦克炮。",
                     "shell_types": "HE-Frag",
                     "shot_mass_kg": 15.6,
                     "chamber_length_dm": 6.07,
@@ -829,19 +915,22 @@
                     "c_43": 0.7,
                     "loads": [
                         {
-                            "name_cn": "全装药",
-                            "name_en": "Full Charge",
+                            "name_cn": "全装药（铜药筒）",
+                            "name_en": "Full Charge (Copper Case)",
+                            "comment": "此处登录数据反应的是早期生产中采用铜制药筒，装药略少。",
                             "charges": [
                                 {
                                     "name_cn": "中间药束",
                                     "name_en": "Center Bundle",
                                     "charge_type": "双芳-3 18/1",
+                                    "comment": "或乙芳",
                                     "charge_mass_kg": 1.85
                                 },
                                 {
                                     "name_cn": "散药",
                                     "name_en": "Filler Charge",
                                     "charge_type": "双芳-3 18/1",
+                                    "comment": "或乙芳",
                                     "charge_mass_kg": 3.65
                                 }
                             ],
@@ -849,8 +938,31 @@
                             "max_avg_pressure_kgf/sqcm": 3000
                         },
                         {
-                            "name_cn": "减装药",
-                            "name_en": "Reduced Charge",
+                            "name_cn": "全装药（钢药筒）",
+                            "name_en": "Full Charge (Steel Case)",
+                            "comment": "此处登录数据反应的是后期生产换用钢壳后，由于药筒内容积增大，装药量有少量提升，但弹道视作不变。",
+                            "charges": [
+                                {
+                                    "name_cn": "中间药束",
+                                    "name_en": "Center Bundle",
+                                    "charge_type": "双芳-3 18/1",
+                                    "comment": "或乙芳",
+                                    "charge_mass_kg": 1.85
+                                },
+                                {
+                                    "name_cn": "散药",
+                                    "name_en": "Filler Charge",
+                                    "charge_type": "双芳-3 18/1",
+                                    "comment": "或乙芳",
+                                    "charge_mass_kg": 3.75
+                                }
+                            ],
+                            "muzzle_velocity_m/s": 900,
+                            "max_avg_pressure_kgf/sqcm": 3000
+                        },
+                        {
+                            "name_cn": "减装药（铜药筒）",
+                            "name_en": "Reduced Charge (Copper Case)",
                             "charges": [
                                 {
                                     "charge_type": "9/7 散药 + 12/1 药束",
@@ -865,7 +977,7 @@
                 {
                     "name_cn": "WB 116P 曳光被帽穿甲弹",
                     "name_en": "WB 116P Armor Piercing Capped Tracer Round",
-                    "comment": "该弹通用1944年式100毫米加农炮，1959式100毫米高射炮及100毫米坦克炮。",
+                    "comment": "该弹通用1944年式100毫米加农炮，1959式100毫米高射炮及1959年式100毫米坦克炮。",
                     "shell_types": "AP, Capped, Tracer",
                     "shot_mass_kg": 15.88,
                     "travel_dm": 50.8,
@@ -873,11 +985,46 @@
                     "c_43": 0.64,
                     "loads": [
                         {
+                            "name_cn": "正常装药（铜药筒）",
+                            "name_en": "Normal Charge (Copper Case)",
+                            "comment": "此处登录数据反应的是早期生产中采用铜制药筒，装药略少。",
                             "charges": [
-                                {  
-                                    "charge_type": "双芳-3 18/1-26",
-                                    "comment": "或乙芳-3 18/1-26",
-                                    "charge_mass_kg": 5.6
+                                {
+                                    "name_cn": "中间药束",
+                                    "name_en": "Center Bundle",
+                                    "charge_type": "双芳-3 18/1",
+                                    "comment": "或乙芳",
+                                    "charge_mass_kg": 1.85
+                                },
+                                {
+                                    "name_cn": "散药",
+                                    "name_en": "Filler Charge",
+                                    "charge_type": "双芳-3 18/1",
+                                    "comment": "或乙芳",
+                                    "charge_mass_kg": 3.65
+                                }
+                            ],
+                            "muzzle_velocity_m/s": 902.5,
+                            "max_avg_pressure_kgf/sqcm": 3000
+                        },
+                        {
+                            "name_cn": "正常装药（钢药筒）",
+                            "name_en": "Normal Charge (Steel Case)",
+                            "comment": "此处登录数据反应的是后期生产换用钢壳后，由于药筒内容积增大，装药量有少量提升，但弹道视作不变。",
+                            "charges": [
+                                {
+                                    "name_cn": "中间药束",
+                                    "name_en": "Center Bundle",
+                                    "charge_type": "双芳-3 18/1",
+                                    "comment": "或乙芳",
+                                    "charge_mass_kg": 1.85
+                                },
+                                {
+                                    "name_cn": "散药",
+                                    "name_en": "Filler Charge",
+                                    "charge_type": "双芳-3 18/1",
+                                    "comment": "或乙芳",
+                                    "charge_mass_kg": 3.75
                                 }
                             ],
                             "muzzle_velocity_m/s": 902.5,
@@ -885,12 +1032,48 @@
                         }
                     ]
                 },
+                {
+                    "name_cn": "WB 016P, WB 435P 空炸杀伤榴弹",
+                    "name_en": "WB 016P, WB 435P Air Burst Fragmentation Round",
+                    "shell_types": "Airburst, Frag",
+                    "shot_mass_kg": 15.6,
+                    "chamber_length_dm": 6.07,
+                    "chamber_volume_L": 7.985,
+                    "travel_dm": 47.43,
+                    "i_43": 1.0,
+                    "loads": [
+                        {
+                            "name_cn": "钢药筒",
+                            "name_en": "Steel Case",
+                            "charges": [
+                                {
+                                    "charge_type": "双芳-3 18/1",
+                                    "charge_mass_kg": 5.66
+                                }
+                            ],
+                            "muzzle_velocity_m/s": 902.5,
+                            "max_avg_pressure_kgf/sqcm": 3000
+                        },
+                        {
+                            "name_cn": "铜药筒",
+                            "name_en": "Copper Case",
+                            "charges": [
+                                {
+                                    "charge_type": "双芳-3 18/1",
+                                    "charge_mass_kg": 5.5
+                                }
+                            ],
+                            "muzzle_velocity_m/s": 902.5,
+                            "max_avg_pressure_kgf/sqcm": 3000
+                        }
+                    ]
+                }
             ]
         },
         {
             "name_cn": "1973年式100毫米滑膛反坦克炮",
-            "name_en": "Type 1973 100mm Smoothbore Anti-Tank Gun",
-            "comment": "为我国在[苏]BS-3 100毫米加农炮的基础上改进设计，为满足提高膛压增加初速发射尾翼弹的需求，将原身管从线膛改为滑膛，改进身管钢材，除身管外其他部件基本沿用了100毫米加农炮原装结构。内弹道构型，装药设计与空气阻力系数参考《火炮内弹道计算手册》与《炮弹火箭弹手册》；高低射界参考《国产火炮手册（说明部分）》。特别地，由于WB 132P弹数据疑似存在问题，这里并未登录。",
+            "name_en": "Type 73 100mm Smoothbore Anti-Tank Gun",
+            "comment": "为我国在[苏]BS-3 100毫米加农炮的基础上改进设计，为满足提高膛压增加初速发射尾翼弹的需求，将原身管从线膛改为滑膛，改进身管钢材，除身管外其他部件基本沿用了100毫米加农炮原装结构。内弹道构型，装药设计与空气阻力系数参考《火炮内弹道计算手册》与《炮弹火箭弹手册》；高低射界参考《国产火炮手册（说明部分）》。",
             "caliber_mm": 100,
             "max_elev_deg": 38,
             "min_elev_deg": -4,
@@ -962,8 +1145,8 @@
                 },
                 {
                     "name_cn": "WB 122P (100毫米通用)破甲弹",
-                    "name_en": "WB 122P (100 Universal) HEAT Round",
-                    "comment": "该弹通用1973年式100毫米滑膛炮反坦克炮，1959年式100毫米（线膛）坦克炮，1969年式100毫米滑膛坦克炮。"
+                    "name_en": "WB 122P (Universal) HEAT Round",
+                    "comment": "该弹通用1973年式100毫米滑膛炮反坦克炮，1959年式100毫米（线膛）坦克炮，1969年式100毫米滑膛坦克炮。",
                     "shell_types": "HEAT",
                     "shot_mass_kg": 10.05,
                     "chamber_volume_L": 7.83,
@@ -988,6 +1171,32 @@
                             ],
                             "max_avg_pressure_kgf/sqcm": 2530,
                             "muzzle_velocity_m/s": 1000
+                        }
+                    ]
+                },
+                {
+                    "name_cn": "WB 132P 钨心脱壳穿甲弹",
+                    "name_en": "WB 132P Tungsten Cored Armor Piercing Discarding Sabot Round",
+                    "shell_types": "AP, FS, DS, W",
+                    "shot_mass_kg": 3.44,
+                    "chamber_volume_L": 8,
+                    "travel_dm": 47.33,
+                    "i_43": 1.33,
+                    "c_43": 0.7,
+                    "loads": [
+                        {
+                            "charges": [
+                                {
+                                    "charge_type": "9/7",
+                                    "charge_mass_kg": 4.6
+                                },
+                                {
+                                    "charge_type": "18/1",
+                                    "charge_mass_kg": 1.05
+                                }
+                            ],
+                            "max_avg_pressure_kgf/sqcm": 3300,
+                            "muzzle_velocity_m/s": 1505
                         }
                     ]
                 }
@@ -1079,7 +1288,7 @@
         },
         {
             "name_cn": "1960年式122毫米加农炮",
-            "name_en": "Type 1960 122mm Gun (D-74)",
+            "name_en": "Type 60 122mm Gun (D-74)",
             "comment": "为我国仿制并改进自[苏]D-74 122毫米加农炮。空气阻力系数，内弹道构型，装药设计参考《火炮内弹道计算手册》及《炮弹火箭弹手册》；炮架射界参考《国产火炮手册（说明部分）》",
             "caliber_mm": 121.92,
             "max_elev_deg": 45,
@@ -1266,7 +1475,7 @@
         },
         {
             "name_cn":"1959年式130毫米加农炮",
-            "name_en": "Type 1959 130mm Gun (M-46)",
+            "name_en": "Type 59 130mm Gun (M-46)",
             "comment": "为我国仿制自[苏]M-46(M1954，GRAU编号52-P-482)型加农炮，该炮为1959年式152毫米火炮的姊妹炮，与其使用相同炮架。在我国，有同弹道的1959年-1式130毫米加农炮的改进型号。内弹道构型，装药设计与空气阻力系数参考《火炮内弹道计算手册》及《炮弹火箭弹手册》；高低射界参考《国产火炮手册（说明部分）》。",
             "caliber_mm": 130,
             "max_elev_deg": 45,
@@ -1394,7 +1603,7 @@
         },
         {
             "name_cn": "1959年式152毫米加农炮",
-            "name_en": "Type 1959 152mm Gun (M-47)",
+            "name_en": "Type 59 152mm Gun (M-47)",
             "comment": "为我国仿制并改进自[苏]M-47型加农炮。该炮与1959年式130毫米加农炮的苏联原型为姊妹炮，共用炮架设计。空气阻力系数，内弹道构型，装药设计参考《火炮内弹道计算手册》及《炮弹火箭弹手册》；炮架射界参考《国产火炮手册（说明部分）》。",
             "caliber_mm": 152.4,
             "max_elev_deg": 45,
@@ -1475,7 +1684,7 @@
         },
         {
             "name_cn": "1983年式152毫米加农炮",
-            "name_en": "Type 1983 152mm Gun",
+            "name_en": "Type 83 152mm Gun",
             "comment": "为我国自行设计，制造。该炮在1983年通过了外贸鉴定，并成功出口；后经过改进（推测为焊接钢药筒取代了药包式装药），在1986年完成了国内设计定型，自用列装型号为1986年式152毫米加农炮。注意，该火炮并非搭载于1983年式自行加榴炮的改进型1966式152毫米加榴炮。空气阻力系数，内弹道构型，装药设计参考《火炮内弹道计算手册》。",
             "caliber_mm": 152.4,
             "shells": [
@@ -1563,7 +1772,7 @@
         },
         {
             "name_cn": "1954年式122毫米榴弹炮",
-            "name_en": "Type 1954 122mm Howitzer (M-30)",
+            "name_en": "Type 54 122mm Howitzer (M-30)",
             "comment": "为我国仿制自[苏]M-30(M1938，GRAU编号52-G-463)型榴弹炮，基本弹种弹道同，有1954年-1式122毫米榴弹炮的改进型号。弹重与空气阻力系数参考《1954年式122毫米榴弹炮射表》；装药划分与空气阻力系数参考《苏联榴弹炮M-30》及《火炮内弹道计算手册》；内弹道构型参考《火炮内弹道计算手册》；高低射界参考《国产火炮手册（说明部分）》。应注意，我国射表中仅列全装药至6号装药，这些条件下的阻力系数取射表附表值，其他未列出条件下的阻力系数采用内弹道计算手册的推荐值。",
             "caliber_mm": 121.92,
             "max_elev_deg": 63.5,
@@ -2212,7 +2421,7 @@
         },
         {
             "name_cn": "1963年式122毫米榴弹炮",
-            "name_en": "Type 1963 122mm Howitzer",
+            "name_en": "Type 63 122mm Howitzer",
             "comment": "为我国自行设计，制造。用1937年122加（A-19）的榴弹弹丸，通过重新设计药筒和装药，使得射程提升至15公里，全炮重3.2吨。我军出于火炮性能不先进，机动性能不够好，弹丸不通用（1937年式122毫米加农炮我国不生产）考虑，定型后作储备处理，不予列装。内弹道设计、弹重、装药划分与空气阻力系数参考《火炮内弹道计算手册》；高低射界参考《国产火炮手册（说明部分）》。",
             "caliber_mm": 121.92,
             "max_elev_deg": 63.5,
@@ -2428,7 +2637,7 @@
         },
         {
             "name_cn": "1956年式152毫米榴弹炮",
-            "name_en": "Type 1956 152mm Howitzer (D-1)",
+            "name_en": "Type 56 152mm Howitzer (D-1)",
             "comment": "为我国以[苏]D-1(M1943)榴弹炮为基础仿制。装药划分，内弹道构型与弹型系数参考《火炮内弹道计算手册》；装药设计与各级初速参考苏联D-1火炮的射表；炮架高低射界参考《国产火炮手册（说明部分）》。",
             "caliber_mm": 152.4,
             "max_elev_deg": 63.5,
@@ -2623,7 +2832,7 @@
         },
         {
             "name_cn": "1966年式152毫米加农榴弹炮",
-            "name_en":"Type 1966 152mm Gun Howitzer (D-20)",
+            "name_en":"Type 66 152mm Gun Howitzer (D-20)",
             "comment": "为我国以[苏]D-20(M1955，GRAU编号52-P-546)为基础仿制。内弹道构型，装药划分与空气阻力系数参考《1966年式152毫米加榴炮射表》及《火炮内弹道计算手册》；装药设计具体药号参考《火炸药手册》；高低射界参考《国产火炮手册（说明部分）》。",
             "caliber_mm": 152.4,
             "max_elev_deg": 45,
@@ -2808,6 +3017,11 @@
                     ]     
                 }
             ]
+        }
+    ],
+    "charges": [
+        {
+
         }
     ]
 }
