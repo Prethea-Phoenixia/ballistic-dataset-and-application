@@ -399,8 +399,12 @@
         {
             "name_cn": "1963年式85毫米坦克炮",
             "name_en": "Type 1963 85mm Tank Gun",
-            "comment": "为我国仿制苏联T-34坦克所配火炮，62年进行图纸整编，产品标记为62-85T。同年，结合我国自行生产131轻型坦克（62式）以及211水陆两用坦克(63式）的装配需求，在改进后，重新设计了带抽气装置的85毫米坦克炮，于64年批准定型生产，命名为63-85坦，产品标记62-85T_c。内弹道构型，空气阻力系数，以及装药设计参考《火炮内弹道计算手册》及《炮弹火箭弹手册》",
+            "comment": "为我国仿制[苏]T-34坦克所配火炮，62年进行图纸整编，产品标记为62-85T。同年，结合我国自行生产131轻型坦克（62式）以及211水陆两用坦克(63式）的装配需求，在改进后，重新设计了带抽气装置的85毫米坦克炮，于64年批准定型生产，命名为63-85坦，产品标记62-85T_c。内弹道构型，空气阻力系数，以及装药设计参考《火炮内弹道计算手册》及《炮弹火箭弹手册》；炮架射界参考《国产火炮手册（说明部分）》。",
             "caliber_mm": 85,
+            "max_elev_deg": 22,
+            "min_elev_deg": -5,
+            "firing_arc_left_deg": 180,
+            "firing_arc_right_deg": 180,
             "shells": [
                 {
                     "name_cn": "WB 014P, WB 024P 杀伤榴弹",
@@ -586,6 +590,7 @@
                 {
                     "name_cn": "WB 004P 杀伤爆破榴弹",
                     "name_en": "WB 004P High Explosive Fragmentation Round",
+                    "comment": "该弹通用1944年式100毫米加农炮，1959式100毫米高射炮及100毫米坦克炮。",
                     "shell_types": "HE-Frag",
                     "shot_mass_kg": 15.6,
                     "chamber_length_dm": 6.07,
@@ -608,7 +613,7 @@
                                     "name_cn": "散药",
                                     "name_en": "Filler Charge",
                                     "charge_type": "双芳-3 18/1",
-                                    "charge_mass_kg": 3.75
+                                    "charge_mass_kg": 3.65
                                 }
                             ],
                             "muzzle_velocity_m/s": 900,
@@ -620,7 +625,7 @@
                             "charges": [
                                 {
                                     "charge_type": "9/7 散药 + 12/1 药束",
-                                    "charge_mass_kg": 1.814
+                                    "charge_mass_kg": 2.39
                                 }
                             ],
                             "muzzle_velocity_m/s": 600,
@@ -631,6 +636,7 @@
                 {
                     "name_cn": "WB 116P 曳光被帽穿甲弹",
                     "name_en": "WB 116P Armor Piercing Capped Tracer Round",
+                    "comment": "该弹通用1944年式100毫米加农炮，1959式100毫米高射炮及100毫米坦克炮。",
                     "shell_types": "AP, Capped, Tracer",
                     "shot_mass_kg": 15.88,
                     "travel_dm": 50.8,
@@ -653,6 +659,118 @@
             ]
         },
         {
+            "name_cn": "1959年式100毫米坦克炮",
+            "name_en": "Type 1959 100mm Tank Gun (D-10T)",
+            "comment": "为我国仿制并改进自[苏]T-54A型坦克之[苏]D-10T 100毫米坦克炮。空气阻力系数，内弹道构型，装药设计参考《火炮内弹道计算手册》及《炮弹火箭弹手册》；炮架射界参考《国产火炮手册（说明部分）》。",
+            "caliber_mm": 100,
+            "max_elev_deg": 18,
+            "min_elev_deg": -5,
+            "firing_arc_left_deg": 180,
+            "firing_arc_right_deg": 180,
+            "shells": [
+                {
+                    "name_cn": "WB 004P 杀伤爆破榴弹",
+                    "name_en": "WB 004P High Explosive Fragmentation Round",
+                    "comment": "该弹通用1944年式100毫米加农炮，1959式100毫米高射炮及100毫米坦克炮。",
+                    "shell_types": "HE-Frag",
+                    "shot_mass_kg": 15.6,
+                    "chamber_length_dm": 6.07,
+                    "chamber_volume_L": 7.9,
+                    "travel_dm": 47.38,
+                    "i_43": 1.1,
+                    "c_43": 0.7,
+                    "loads": [
+                        {
+                            "name_cn": "全装药",
+                            "name_en": "Full Charge",
+                            "charges": [
+                                {
+                                    "name_cn": "中间药束",
+                                    "name_en": "Center Bundle",
+                                    "charge_type": "双芳-3 18/1",
+                                    "charge_mass_kg": 1.85
+                                },
+                                {
+                                    "name_cn": "散药",
+                                    "name_en": "Filler Charge",
+                                    "charge_type": "双芳-3 18/1",
+                                    "charge_mass_kg": 3.65
+                                }
+                            ],
+                            "muzzle_velocity_m/s": 900,
+                            "max_avg_pressure_kgf/sqcm": 3000
+                        },
+                        {
+                            "name_cn": "减装药",
+                            "name_en": "Reduced Charge",
+                            "charges": [
+                                {
+                                    "charge_type": "9/7 散药 + 12/1 药束",
+                                    "charge_mass_kg": 2.39
+                                }
+                            ],
+                            "muzzle_velocity_m/s": 600,
+                            "max_avg_pressure_kgf/sqcm": 2000
+                        }
+                    ]
+                },
+                {
+                    "name_cn": "WB 116P 曳光被帽穿甲弹",
+                    "name_en": "WB 116P Armor Piercing Capped Tracer Round",
+                    "comment": "该弹通用1944年式100毫米加农炮，1959式100毫米高射炮及100毫米坦克炮。",
+                    "shell_types": "AP, Capped, Tracer",
+                    "shot_mass_kg": 15.88,
+                    "travel_dm": 50.8,
+                    "i_43": 1.0,
+                    "c_43": 0.64,
+                    "loads": [
+                        {
+                            "charges": [
+                                {  
+                                    "charge_type": "双芳-3 18/1-26",
+                                    "comment": "或乙芳-3 18/1-26",
+                                    "charge_mass_kg": 5.6
+                                }
+                            ],
+                            "muzzle_velocity_m/s": 902.5,
+                            "max_avg_pressure_kgf/sqcm": 3000
+                        }
+                    ]
+                },
+                {
+                    "name_cn": "WB 122P (100毫米通用)破甲弹",
+                    "name_en": "WB 122P (100 Universal) HEAT Round",
+                    "comment": "该弹通用1973年式100毫米滑膛炮反坦克炮，1959年式100毫米（线膛）坦克炮，1969年式100毫米滑膛坦克炮。"
+                    "shell_types": "HEAT",
+                    "shot_mass_kg": 10.05,
+                    "chamber_volume_L": 7.83,
+                    "travel_dm": 47.94,
+                    "i_43": 2.818,
+                    "c_43": 2.805,
+                    "loads": [
+                        {
+                            "charges": [
+                                {
+                                    "charge_type": "13/7",
+                                    "charge_mass_kg": 3.84
+                                },
+                                {
+                                    "charge_type": "18/1",
+                                    "charge_mass_kg": 0.82
+                                },
+                                {
+                                    "charge_type": "10/1 松钾",
+                                    "charge_mass_kg": 0.14
+                                }
+                            ],
+                            "max_avg_pressure_kgf/sqcm": 2530,
+                            "muzzle_velocity_m/s": 1000
+                        }
+                    ]
+                }
+            ]
+        }
+        {
             "name_cn": "1959年式100毫米高射炮",
             "name_en": "Type 1959 100mm AA Gun (KS-19)",
             "comment": "为我国仿制并改进自[苏]KS-19M2型高射炮。空气阻力系数，内弹道构型，装药设计参考《火炮内弹道计算手册》及《炮弹火箭弹手册》；炮架射界参考《国产火炮手册（说明部分）》。",
@@ -673,19 +791,100 @@
                     "i_43": 1.0,
                     "loads": [
                         {
+                            "name_cn": "钢药筒",
+                            "name_en": "Steel Cartridge",
                             "charges": [
                                 {
-                                    "name_cn": "钢药筒",
-                                    "name_en": "Steel Cartridge",
-                                    "charge_type": "双芳-3 13/1",
+                                    "charge_type": "双芳-3 18/1",
                                     "charge_mass_kg": 5.66
+                                }
+                            ],
+                            "muzzle_velocity_m/s": 902.5,
+                            "max_avg_pressure_kgf/sqcm": 3000
+                        },
+                        {
+                            "name_cn": "铜药筒",
+                            "name_en": "Copper Cartridge",
+                            "charges": [
+                                {
+                                    "charge_type": "双芳-3 18/1",
+                                    "charge_mass_kg": 5.5
                                 }
                             ],
                             "muzzle_velocity_m/s": 902.5,
                             "max_avg_pressure_kgf/sqcm": 3000
                         }
                     ]
-                }
+                },
+                {
+                    "name_cn": "WB 004P 杀伤爆破榴弹",
+                    "name_en": "WB 004P High Explosive Fragmentation Round",
+                    "comment": "该弹通用1944年式100毫米加农炮，1959式100毫米高射炮及100毫米坦克炮。",
+                    "shell_types": "HE-Frag",
+                    "shot_mass_kg": 15.6,
+                    "chamber_length_dm": 6.07,
+                    "chamber_volume_L": 7.9,
+                    "travel_dm": 47.38,
+                    "i_43": 1.1,
+                    "c_43": 0.7,
+                    "loads": [
+                        {
+                            "name_cn": "全装药",
+                            "name_en": "Full Charge",
+                            "charges": [
+                                {
+                                    "name_cn": "中间药束",
+                                    "name_en": "Center Bundle",
+                                    "charge_type": "双芳-3 18/1",
+                                    "charge_mass_kg": 1.85
+                                },
+                                {
+                                    "name_cn": "散药",
+                                    "name_en": "Filler Charge",
+                                    "charge_type": "双芳-3 18/1",
+                                    "charge_mass_kg": 3.65
+                                }
+                            ],
+                            "muzzle_velocity_m/s": 900,
+                            "max_avg_pressure_kgf/sqcm": 3000
+                        },
+                        {
+                            "name_cn": "减装药",
+                            "name_en": "Reduced Charge",
+                            "charges": [
+                                {
+                                    "charge_type": "9/7 散药 + 12/1 药束",
+                                    "charge_mass_kg": 2.39
+                                }
+                            ],
+                            "muzzle_velocity_m/s": 600,
+                            "max_avg_pressure_kgf/sqcm": 2000
+                        }
+                    ]
+                },
+                {
+                    "name_cn": "WB 116P 曳光被帽穿甲弹",
+                    "name_en": "WB 116P Armor Piercing Capped Tracer Round",
+                    "comment": "该弹通用1944年式100毫米加农炮，1959式100毫米高射炮及100毫米坦克炮。",
+                    "shell_types": "AP, Capped, Tracer",
+                    "shot_mass_kg": 15.88,
+                    "travel_dm": 50.8,
+                    "i_43": 1.0,
+                    "c_43": 0.64,
+                    "loads": [
+                        {
+                            "charges": [
+                                {  
+                                    "charge_type": "双芳-3 18/1-26",
+                                    "comment": "或乙芳-3 18/1-26",
+                                    "charge_mass_kg": 5.6
+                                }
+                            ],
+                            "muzzle_velocity_m/s": 902.5,
+                            "max_avg_pressure_kgf/sqcm": 3000
+                        }
+                    ]
+                },
             ]
         },
         {
@@ -764,6 +963,7 @@
                 {
                     "name_cn": "WB 122P (100毫米通用)破甲弹",
                     "name_en": "WB 122P (100 Universal) HEAT Round",
+                    "comment": "该弹通用1973年式100毫米滑膛炮反坦克炮，1959年式100毫米（线膛）坦克炮，1969年式100毫米滑膛坦克炮。"
                     "shell_types": "HEAT",
                     "shot_mass_kg": 10.05,
                     "chamber_volume_L": 7.83,
