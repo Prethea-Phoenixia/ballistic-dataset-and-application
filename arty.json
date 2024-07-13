@@ -1206,7 +1206,7 @@
         },
         {
             "name_cn": "1969年式100毫米滑膛坦克炮",
-            "name_en": "Type 69 100mm Smoothbore Anti-Tank Gun",
+            "name_en": "Type 69 100mm Smoothbore Tank Gun",
             "comment": "为我国在1959年式100毫米线膛坦克炮的基础上进行线改滑而成。内弹道构型，装药设计与空气阻力系数参考《火炮内弹道计算手册》与《炮弹火箭弹手册》；高低射界参考《国产火炮手册（说明部分）》。",
             "caliber_mm": 100,
             "max_elev_deg": 18,
